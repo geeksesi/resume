@@ -6,10 +6,10 @@ cache:
 
 before_script:
     - yarn install
-test:
-    stage: test
-    script:
-        - CI=true npm test
+# test:
+#     stage: test
+#     script:
+#         - CI=true npm test
 pages:
     stage: deploy
     script:
