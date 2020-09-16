@@ -1,4 +1,4 @@
-image: node:10
+image: node:14
 
 cache:
     paths:
@@ -11,9 +11,8 @@ before_script:
 #     script:
 #         - CI=true npm test
 pages:
-    stage: deploy
     script:
-        - CI=true yarn build
+        - yarn build
     artifacts:
         paths:
             - build
