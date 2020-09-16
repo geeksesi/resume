@@ -1,0 +1,22 @@
+image: node:10.16.3
+
+cache:
+    paths:
+        - node_modules/
+
+before_script:
+    - rm -rf build
+    - CI=false npm install
+
+pages:
+    stage: deploy
+    script:
+        - CI=false npm run build
+        - rm -rf public
+        - cp build/index.html build/404.html
+        - mv build public
+    artifacts:
+        paths:
+            - public
+    only:
+        - master
