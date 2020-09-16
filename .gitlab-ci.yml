@@ -4,7 +4,7 @@ cache:
     paths:
         - node_modules/
 
-before_script:
+# before_script:
 
 pages:
     artifacts:
