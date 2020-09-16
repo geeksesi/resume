@@ -1,14 +1,21 @@
-image: node:14.10.0
+image: node:10
 
 cache:
     paths:
         - node_modules/
 
-# before_script:
-
+before_script:
+    - yarn install
+test:
+    stage: test
+    script:
+        - CI=true npm test
 pages:
+    stage: deploy
+    script:
+        - CI=true yarn build
     artifacts:
         paths:
-            - .
+            - build
     only:
         - master
