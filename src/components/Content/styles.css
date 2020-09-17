@@ -1,0 +1,18 @@
+.Content {
+    padding: 25px;
+}
+.Content .about h2 {
+    font-size: x-large;
+}
+.Content .about p {
+    line-height: 2;
+    text-align: justify;
+}
+
+.Content .contents .right {
+    min-height: 500px;
+    border-left: #3d405b 1px solid;
+}
+.Content .contents .left {
+    min-height: 500px;
+}
