@@ -1,12 +1,42 @@
-.Awards h3 {
+.Experience h3 {
     -ms-flex: auto;
     flex: auto;
     overflow: hidden;
     color: rgba(0, 0, 0, 0.85);
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5715;
     white-space: nowrap;
     text-overflow: ellipsis;
     margin-bottom: 25px;
+}
+.Experience .Year {
+    padding: 12px;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5715;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+}
+.Experience .Title {
+    padding: 10px;
+
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.5715;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+}
+.Experience .Title a {
+    color: rgba(0, 0, 0, 0.85);
+}
+.Experience .JobTitle {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.85);
 }
