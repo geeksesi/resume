@@ -1,0 +1,30 @@
+.Headers {
+    background-color: transparent;
+
+    margin: 25px;
+    color: #151515;
+}
+.Headers img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.Headers h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.Headers .social {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 0;
+}
+.Headers .social a {
+    font-size: 18px;
+    margin: 15px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #151515;
+}
+.Headers .social a:hover {
+}
