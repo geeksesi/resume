@@ -1,0 +1,12 @@
+.Awards h3 {
+    -ms-flex: auto;
+    flex: auto;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5715;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 25px;
+}
