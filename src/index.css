@@ -1,5 +1,8 @@
 @import "~antd/dist/antd.css";
 @import "~vazir-font/dist/Without-Latin/font-face-WOL.css";
+/**
+* https://coolors.co/f4f1de-e07a5f-3d405b-81b29a-f2cc8f
+*/
 body {
     background-color: #f4f1de;
     color: #3d405b;

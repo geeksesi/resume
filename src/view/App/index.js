@@ -3,15 +3,16 @@ import "./index.css";
 import { Layout } from "antd";
 
 import Header from "../../components/Header/";
+import Content from "../../components/Content/";
 const App = () => {
-    const { Footer, Sider, Content } = Layout;
+    // const { Footer, Sider, Content } = Layout;
     return (
         <>
             <Layout className="App">
                 <Header>Header</Header>
                 <hr />
-                {/* <Content>Content</Content>
-                <Footer>Footer</Footer> */}
+                <Content>Content</Content>
+                {/* <Footer>Footer</Footer>  */}
             </Layout>
         </>
     );

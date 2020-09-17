@@ -1,5 +1,6 @@
 .App {
-    margin: 6%;
+    max-width: 850px;
+    margin: auto;
     background-color: transparent;
 }
 .ant-layout {
@@ -8,5 +9,6 @@
 
 .App hr {
     width: 100%;
-    border: 0.5px #f2cc8f solid;
+    border-color: #3d405b;
+    /* border: 1px #3d405b solid; */
 }
