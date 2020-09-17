@@ -5,6 +5,7 @@ import Skills from "./Skills/";
 import Education from "./Education/";
 import Social from "./Social/";
 import Awards from "./Awards/";
+import Experience from "./Experience/";
 
 export default () => {
     return (
@@ -24,7 +25,7 @@ export default () => {
                     </Row>
                 </div>
             </Row>
-            <Row align="middle" className="contents">
+            <Row className="contents">
                 <Col md={{ span: 9 }} className="right">
                     <Row className="skills">
                         <Skills />
@@ -39,7 +40,9 @@ export default () => {
                         <Awards />
                     </Row>
                 </Col>
-                <Col md={{ span: 15 }} className="left"></Col>
+                <Col md={{ span: 15 }} className="left">
+                    <Experience />
+                </Col>
             </Row>
         </div>
     );

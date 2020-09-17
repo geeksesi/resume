@@ -1,8 +1,20 @@
 .Content {
     padding: 25px;
 }
+.Content .about {
+    margin-bottom: 35px;
+}
 .Content .about h2 {
-    font-size: x-large;
+    -ms-flex: auto;
+    flex: auto;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.5715;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 25px;
 }
 .Content .about p {
     line-height: 2;
@@ -11,8 +23,22 @@
 
 .Content .contents .right {
     min-height: 500px;
-    border-left: #3d405b 1px solid;
+    /* border-left: #3d405b 1px solid; */
 }
 .Content .contents .left {
     min-height: 500px;
+    padding: 20px;
+}
+
+.Content .contents .skills {
+    margin: 20px 0 50px 0;
+}
+.Content .contents .education {
+    margin: 20px 0 50px 0;
+}
+.Content .contents .awards {
+    margin: 20px 0 50px 0;
+}
+.Content .contents .social {
+    margin: 20px 0 50px 0;
 }
