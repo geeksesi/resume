@@ -15,17 +15,8 @@
 }
 
 .Headers .social {
-    font-size: 18px;
-    margin: 0px;
-    margin-bottom: 0;
-}
-.Headers .social a {
+    direction: ltr;
     font-size: 18px;
     margin: 15px;
-    margin-bottom: 0;
-    text-decoration: none;
     color: #3d405b;
-}
-.Headers .social a:hover {
-    color: #e07a5f;
 }

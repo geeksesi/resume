@@ -1,4 +1,4 @@
-import { Col, Row } from "antd";
+import { Col, Descriptions, Row } from "antd";
 import React from "react";
 import myPic from "../../assets/img/me.jpeg";
 import "./styles.css";
@@ -15,27 +15,10 @@ export default () => {
                         <h4>برنامه نویس بک‌اند</h4>
                     </Row>
                     <Row className="social">
-                        <a
-                            href="https://twitter.com/geeksesi"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a
-                            href="https://gitlab.com/geeksesi"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            <i class="fa fa-gitlab"></i>
-                        </a>
-                        <a
-                            href="https://github.com/geeksesi"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            <i class="fa fa-github"></i>
-                        </a>
+                        <Descriptions column={2}>
+                            <Descriptions.Item label="شماره تماس">+989100101543</Descriptions.Item>
+                            <Descriptions.Item label="ایمیل">Geeksesi@gmail.com</Descriptions.Item>
+                        </Descriptions>
                     </Row>
                 </Col>
                 <Col xs={{ span: 24, order: 1 }} sm={{ span: 4, order: 2 }} className="logo">

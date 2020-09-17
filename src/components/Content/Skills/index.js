@@ -4,13 +4,13 @@ import "./styles.css";
 
 export default () => {
     return (
-        <div>
+        <div className="Skills">
             <Descriptions title="مهارت‌ها" column={1}>
                 <Descriptions.Item label="PHP">
                     <Progress
                         showInfo={false}
                         type="line"
-                        percent={90}
+                        percent={80}
                         steps={30}
                         size="small"
                         strokeColor="#E07A5F"
@@ -22,6 +22,50 @@ export default () => {
                         showInfo={false}
                         type="line"
                         percent={40}
+                        steps={30}
+                        size="small"
+                        strokeColor="#E07A5F"
+                        trailColor="#F2CC8F"
+                    />
+                </Descriptions.Item>
+                <Descriptions.Item label="React">
+                    <Progress
+                        showInfo={false}
+                        type="line"
+                        percent={40}
+                        steps={30}
+                        size="small"
+                        strokeColor="#E07A5F"
+                        trailColor="#F2CC8F"
+                    />
+                </Descriptions.Item>
+                <Descriptions.Item label="Git">
+                    <Progress
+                        showInfo={false}
+                        type="line"
+                        percent={60}
+                        steps={30}
+                        size="small"
+                        strokeColor="#E07A5F"
+                        trailColor="#F2CC8F"
+                    />
+                </Descriptions.Item>
+                <Descriptions.Item label="TDD">
+                    <Progress
+                        showInfo={false}
+                        type="line"
+                        percent={30}
+                        steps={30}
+                        size="small"
+                        strokeColor="#E07A5F"
+                        trailColor="#F2CC8F"
+                    />
+                </Descriptions.Item>
+                <Descriptions.Item label="Laravel">
+                    <Progress
+                        showInfo={false}
+                        type="line"
+                        percent={50}
                         steps={30}
                         size="small"
                         strokeColor="#E07A5F"
