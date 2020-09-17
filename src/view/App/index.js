@@ -9,6 +9,7 @@ const App = () => {
         <>
             <Layout className="App">
                 <Header>Header</Header>
+                <hr />
                 {/* <Content>Content</Content>
                 <Footer>Footer</Footer> */}
             </Layout>

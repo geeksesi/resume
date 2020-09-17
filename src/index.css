@@ -1,7 +1,8 @@
 @import "~antd/dist/antd.css";
 @import "~vazir-font/dist/Without-Latin/font-face-WOL.css";
 body {
-    background-color: #e1e1e1;
+    background-color: #f4f1de;
+    color: #3d405b;
     margin: 0;
     font-family: Vazir;
     -webkit-font-smoothing: antialiased;

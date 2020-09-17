@@ -5,3 +5,8 @@
 .ant-layout {
     background-color: transparent !important;
 }
+
+.App hr {
+    width: 100%;
+    border: 0.5px #f2cc8f solid;
+}

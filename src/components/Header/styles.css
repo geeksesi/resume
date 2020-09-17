@@ -2,7 +2,7 @@
     background-color: transparent;
 
     margin: 25px;
-    color: #151515;
+    color: #3d405b;
 }
 .Headers img {
     width: 120px;
@@ -24,7 +24,8 @@
     margin: 15px;
     margin-bottom: 0;
     text-decoration: none;
-    color: #151515;
+    color: #3d405b;
 }
 .Headers .social a:hover {
+    color: #e07a5f;
 }
