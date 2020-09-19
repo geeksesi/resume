@@ -43,11 +43,7 @@ export default () => {
             <>
                 <Row>
                     <h4 className="Year">1397 - 1398</h4>
-                    <h4 className="Title">
-                        <a href="https://ermile.com/" rel="noopener noreferrer" target="_blank">
-                            فریلنسری
-                        </a>
-                    </h4>
+                    <h4 className="Title">فریلنسری</h4>
                 </Row>
                 <Row>
                     <p>
@@ -113,33 +109,7 @@ export default () => {
                     </p>
                 </Row>
             </>
-            <>
-                <Row>
-                    <h4 className="Year">1398 - 1399</h4>
-                    <h4 className="Title">
-                        <a href="https://ermile.com/" rel="noopener noreferrer" target="_blank">
-                            تدریسیار درس مبانی کامپیوتر و برنامه نویسی
-                        </a>
-                    </h4>
-                </Row>
-                <Row>
-                    <p>
-                        تدریسیار حل تمرین استاد اسماعیلی.
-                        <br />
-                        <ul>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/geeksesi/myroleasta"
-                                >
-                                    ساخت تمارین و تست‌کیس ها برای پلتفرم کوئرا{" "}
-                                </a>
-                            </li>
-                        </ul>
-                    </p>
-                </Row>
-            </>
+
             <>
                 <Row>
                     <h4 className="Year">1399</h4>

@@ -16,7 +16,7 @@ export default () => {
                     </Row>
                     <Row className="social">
                         <Descriptions column={2}>
-                            <Descriptions.Item label="شماره تماس">+989100101543</Descriptions.Item>
+                            <Descriptions.Item label="شماره تماس">09100101543</Descriptions.Item>
                             <Descriptions.Item label="ایمیل">Geeksesi@gmail.com</Descriptions.Item>
                         </Descriptions>
                     </Row>
