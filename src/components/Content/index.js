@@ -26,7 +26,7 @@ export default () => {
                 </div>
             </Row>
             <Row className="contents">
-                <Col md={{ span: 9 }} className="right">
+                <Col xs={{ span: 24, order: 2 }} md={{ span: 9, order: 1 }} className="right">
                     <Row className="skills">
                         <Skills />
                     </Row>
@@ -40,7 +40,7 @@ export default () => {
                         <Awards />
                     </Row>
                 </Col>
-                <Col md={{ span: 15 }} className="left">
+                <Col xs={{ span: 24, order: 1 }} md={{ span: 15, order: 2 }} className="left">
                     <Experience />
                 </Col>
             </Row>
