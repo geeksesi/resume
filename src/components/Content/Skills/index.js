@@ -17,6 +17,39 @@ export default () => {
                         trailColor="#F2CC8F"
                     />
                 </Descriptions.Item>
+                <Descriptions.Item label="Laravel">
+                    <Progress
+                        showInfo={false}
+                        type="line"
+                        percent={30}
+                        steps={30}
+                        size="small"
+                        strokeColor="#E07A5F"
+                        trailColor="#F2CC8F"
+                    />
+                </Descriptions.Item>
+                <Descriptions.Item label="Composer">
+                    <Progress
+                        showInfo={false}
+                        type="line"
+                        percent={70}
+                        steps={30}
+                        size="small"
+                        strokeColor="#E07A5F"
+                        trailColor="#F2CC8F"
+                    />
+                </Descriptions.Item>
+                <Descriptions.Item label="JavaScript">
+                    <Progress
+                        showInfo={false}
+                        type="line"
+                        percent={40}
+                        steps={30}
+                        size="small"
+                        strokeColor="#E07A5F"
+                        trailColor="#F2CC8F"
+                    />
+                </Descriptions.Item>
                 <Descriptions.Item label="NodeJs">
                     <Progress
                         showInfo={false}
@@ -55,17 +88,6 @@ export default () => {
                         showInfo={false}
                         type="line"
                         percent={30}
-                        steps={30}
-                        size="small"
-                        strokeColor="#E07A5F"
-                        trailColor="#F2CC8F"
-                    />
-                </Descriptions.Item>
-                <Descriptions.Item label="Laravel">
-                    <Progress
-                        showInfo={false}
-                        type="line"
-                        percent={50}
                         steps={30}
                         size="small"
                         strokeColor="#E07A5F"
