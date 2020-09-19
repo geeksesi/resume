@@ -54,19 +54,15 @@ export default () => {
                                 <a
                                     rel="noopener noreferrer"
                                     target="_blank"
-                                    href="https://github.com/geeksesi/do0ir-cli"
-                                >
-                                    نرم افزار کوتاه کننده لینک به زبان Rust{" "}
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
                                     href="https://github.com/geeksesi/wp-zilon-woocommerce"
                                 >
                                     افزونه وردپرس درگاه پرداخت زیلون
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>Wordpress</small>
+                                    <small>MVC</small>
+                                    <small>RestApi</small>
+                                </Row>
                             </li>
                             <li>
                                 <a
@@ -76,6 +72,10 @@ export default () => {
                                 >
                                     سرویس لیدربورد برای بازی های رقابتی{" "}
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>MVC</small>
+                                    <small>PHP</small>
+                                </Row>
                             </li>
                             <li>
                                 <a
@@ -86,6 +86,10 @@ export default () => {
                                     ربات cli تلگرام مدیریت اعضای کانال و گروه برای دانشگاه آزاد
                                     اسلامی قم
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>Python</small>
+                                    <small>OOP</small>
+                                </Row>
                             </li>
                             <li>
                                 <a
@@ -95,6 +99,13 @@ export default () => {
                                 >
                                     ربات تلگرام دانلود مانگا و تبدیل عکس به pdf
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>PHP</small>
+                                    <small>MVC</small>
+                                    <small>OOP</small>
+                                    <small>Composer</small>
+                                    <small>TDD</small>
+                                </Row>
                             </li>
                             <li>
                                 <a
@@ -104,6 +115,11 @@ export default () => {
                                 >
                                     جستجوی اطلاعات کتاب براساس شابک کتاب
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>ComposerLib</small>
+                                    <small>TDD</small>
+                                    <small>Scammer</small>
+                                </Row>
                             </li>
                         </ul>
                     </p>
@@ -145,6 +161,10 @@ export default () => {
                                 >
                                     WooCommerce{" "}
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>MVC</small>
+                                    <small>RestApi</small>
+                                </Row>
                             </li>
                             <li>
                                 <a
@@ -154,6 +174,10 @@ export default () => {
                                 >
                                     OpenCart{" "}
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>MVC</small>
+                                    <small>RestApi</small>
+                                </Row>
                             </li>
                             <li>
                                 <a
@@ -163,6 +187,11 @@ export default () => {
                                 >
                                     Magento{" "}
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>Composer</small>
+                                    <small>MVC</small>
+                                    <small>OOP</small>
+                                </Row>
                             </li>
                             <li>
                                 <a
@@ -172,9 +201,61 @@ export default () => {
                                 >
                                     PrestaShop{" "}
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>MVC</small>
+                                    <small>RestApi</small>
+                                </Row>
                             </li>
                         </ul>
                         می باشد.
+                    </p>
+                </Row>
+                <Row>
+                    <p>
+                        دیگر مخازن آزاد پروژه
+                        <br />
+                        <ul>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://gitlab.com/payzos/payzos"
+                                >
+                                    Backend{" "}
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>MVC</small>
+                                    <small>Composer</small>
+                                    <small>RestApi</small>
+                                    <small>FastRoute</small>
+                                </Row>
+                            </li>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://gitlab.com/payzos/payzos-frontend"
+                                >
+                                    Frontrnd{" "}
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>React</small>
+                                </Row>
+                            </li>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://gitlab.com/payzos/conseil-php"
+                                >
+                                    ConseilPHP{" "}
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>ComposerLib</small>
+                                    <small>PHPSpec</small>
+                                </Row>
+                            </li>
+                        </ul>
                     </p>
                 </Row>
             </>
