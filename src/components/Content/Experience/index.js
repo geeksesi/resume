@@ -7,34 +7,134 @@ export default () => {
             <Row>
                 <h3>تجربیات</h3>
             </Row>
+
             <>
                 <Row>
-                    <h4 className="Year">1396</h4>
+                    <h4 className="Year">1399</h4>
                     <h4 className="Title">
-                        <a href="https://ermile.com/" rel="noopener noreferrer" target="_blank">
-                            Ermile
+                        سرویس پرداخت{" "}
+                        <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://gitlab.com/payzos"
+                        >
+                            Payzos
                         </a>
                     </h4>
                 </Row>
                 <Row>
-                    <h5 className="JobTitle">کارآموز برنامه‌نویسی بک‌اند</h5>
+                    <h5 className="JobTitle">مدیرفنی و برنامه‌نویس بک‌اند</h5>
                 </Row>
                 <Row>
                     <p>
-                        برخی مهارت‌هایی که در این دوره کارآموزی آموختم
+                        Payzos سرویس درگاه‌پرداختی آزاد و متن‌باز برای شبکه Tezos است و برای
+                        دارندگان فروشگاه های مجازی امکان دریافت وجه از طریق این رمزارز را فراهم می
+                        کند.
+                    </p>
+                    <p>
+                        وظیفه اصلی این سرویس ارائه خدمات پرداخت برای این فروشگاه‌سازهاست: <br />
+                        <ul>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://gitlab.com/payzos/wp-payzos-payment-woocommerce"
+                                >
+                                    WooCommerce{" "}
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>MVC</small>
+                                    <small>RestApi</small>
+                                </Row>
+                            </li>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://gitlab.com/payzos/payzos-payment-opencart"
+                                >
+                                    OpenCart{" "}
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>MVC</small>
+                                    <small>RestApi</small>
+                                </Row>
+                            </li>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://gitlab.com/payzos/payzos-magento"
+                                >
+                                    Magento{" "}
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>Composer</small>
+                                    <small>MVC</small>
+                                    <small>OOP</small>
+                                </Row>
+                            </li>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://gitlab.com/payzos/payzos-prestashop"
+                                >
+                                    PrestaShop{" "}
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>MVC</small>
+                                    <small>RestApi</small>
+                                </Row>
+                            </li>
+                        </ul>
+                    </p>
+                </Row>
+                <Row>
+                    <p>
+                        دیگر مخازن آزاد پروژه
                         <br />
                         <ul>
                             <li>
                                 <a
                                     rel="noopener noreferrer"
                                     target="_blank"
-                                    href="https://github.com/Ermile/PHP-URL"
+                                    href="https://gitlab.com/payzos/payzos"
                                 >
-                                    ساختار شی‌گرایی و حل مسئله
+                                    Backend{" "}
                                 </a>
+                                <Row className="sub-tech">
+                                    <small>MVC</small>
+                                    <small>Composer</small>
+                                    <small>RestApi</small>
+                                    <small>FastRoute</small>
+                                </Row>
                             </li>
-                            <li>آشنایی با poedit و وب سایت های چند‌زبانه</li>
-                            <li>آشنایی با وب‌سرویس nginx و نگهداری و کانفیگ سرور </li>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://gitlab.com/payzos/payzos-frontend"
+                                >
+                                    Frontrnd{" "}
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>React</small>
+                                </Row>
+                            </li>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    href="https://gitlab.com/payzos/conseil-php"
+                                >
+                                    ConseilPHP{" "}
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>ComposerLib</small>
+                                    <small>PHPSpec</small>
+                                </Row>
+                            </li>
                         </ul>
                     </p>
                 </Row>
@@ -128,133 +228,32 @@ export default () => {
 
             <>
                 <Row>
-                    <h4 className="Year">1399</h4>
+                    <h4 className="Year">1396</h4>
                     <h4 className="Title">
-                        سرویس پرداخت{" "}
-                        <a
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href="https://gitlab.com/payzos"
-                        >
-                            Payzos
+                        <a href="https://ermile.com/" rel="noopener noreferrer" target="_blank">
+                            Ermile
                         </a>
                     </h4>
                 </Row>
                 <Row>
-                    <h5 className="JobTitle">مدیرفنی و برنامه‌نویس بک‌اند</h5>
+                    <h5 className="JobTitle">کارآموز برنامه‌نویسی بک‌اند</h5>
                 </Row>
                 <Row>
                     <p>
-                        Payzos سرویس درگاه‌پرداختی آزاد و متن‌باز برای شبکه Tezos است و برای
-                        دارندگان فروشگاه های مجازی امکان دریافت وجه از طریق این رمزارز را فراهم می
-                        کند.
-                    </p>
-                    <p>
-                        وظیفه اصلی این سرویس ارائه خدمات پرداخت برای فروشگاه‌ساز های
+                        برخی مهارت‌هایی که در این دوره کارآموزی آموختم
                         <br />
                         <ul>
                             <li>
                                 <a
                                     rel="noopener noreferrer"
                                     target="_blank"
-                                    href="https://gitlab.com/payzos/wp-payzos-payment-woocommerce"
+                                    href="https://github.com/Ermile/PHP-URL"
                                 >
-                                    WooCommerce{" "}
+                                    ساختار شی‌گرایی و حل مسئله
                                 </a>
-                                <Row className="sub-tech">
-                                    <small>MVC</small>
-                                    <small>RestApi</small>
-                                </Row>
                             </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/payzos/payzos-payment-opencart"
-                                >
-                                    OpenCart{" "}
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>MVC</small>
-                                    <small>RestApi</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/payzos/payzos-magento"
-                                >
-                                    Magento{" "}
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>Composer</small>
-                                    <small>MVC</small>
-                                    <small>OOP</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/payzos/payzos-prestashop"
-                                >
-                                    PrestaShop{" "}
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>MVC</small>
-                                    <small>RestApi</small>
-                                </Row>
-                            </li>
-                        </ul>
-                        می باشد.
-                    </p>
-                </Row>
-                <Row>
-                    <p>
-                        دیگر مخازن آزاد پروژه
-                        <br />
-                        <ul>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/payzos/payzos"
-                                >
-                                    Backend{" "}
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>MVC</small>
-                                    <small>Composer</small>
-                                    <small>RestApi</small>
-                                    <small>FastRoute</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/payzos/payzos-frontend"
-                                >
-                                    Frontrnd{" "}
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>React</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/payzos/conseil-php"
-                                >
-                                    ConseilPHP{" "}
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>ComposerLib</small>
-                                    <small>PHPSpec</small>
-                                </Row>
-                            </li>
+                            <li>آشنایی با poedit و وب سایت های چند‌زبانه</li>
+                            <li>آشنایی با وب‌سرویس nginx و نگهداری و کانفیگ سرور </li>
                         </ul>
                     </p>
                 </Row>

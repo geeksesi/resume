@@ -1,3 +1,6 @@
-.Skills .ant-descriptions-item-label {
+/* .Skills .ant-descriptions-item-label {
     width: 80px;
+} */
+.Skills bold {
+    font-weight: 900;
 }

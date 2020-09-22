@@ -17,10 +17,9 @@ export default () => {
                     </Row>
                     <Row>
                         <p>
-                            من محمد جواد قاسمی، متولد مرداد 1379 شهر قم، دانشجوی رشته مهندسی
-                            کامپیوتر و برنامه‌نویس back-end، علاقمند به کار گروهی و چالش‌های مربوط
-                            به شبکه، متمرکز بر php، آشنا به nodeJs و برنامه نویسی front-end، طرفدار
-                            نرم افزار آزاد و عضو کوچکی از این جامعه هستم.
+                            دانشجوی رشته مهندسی کامپیوتر، برنامه‌نویس back-end، علاقمند به کار گروهی
+                            و چالش‌های مربوط به شبکه، متمرکز بر php، آشنا به nodeJs و برنامه نویسی
+                            front-end، طرفدار نرم افزار آزاد و عضو کوچکی از این جامعه هستم.
                         </p>
                     </Row>
                 </div>
@@ -36,9 +35,9 @@ export default () => {
                     <Row className="social">
                         <Social />
                     </Row>
-                    <Row className="awards">
+                    {/* <Row className="awards">
                         <Awards />
-                    </Row>
+                    </Row> */}
                 </Col>
                 <Col xs={{ span: 24, order: 1 }} md={{ span: 15, order: 2 }} className="left">
                     <Experience />

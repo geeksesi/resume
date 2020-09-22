@@ -4,22 +4,32 @@ import "./styles.css";
 
 export default () => {
     return (
-        <div>
-            <Descriptions title="شبکه‌های اجتماعی" column={1}>
-                <Descriptions.Item label="Twitter">
-                    <a href="https://twitter.com/geeksesi">@geeksesi</a>
+        <div className="Social">
+            <Descriptions title="شبکه‌های اجتماعی" column={6}>
+                <Descriptions.Item>
+                    <a href="https://twitter.com/geeksesi">
+                        <i class="fa fa-twitter"></i>
+                    </a>
                 </Descriptions.Item>
-                <Descriptions.Item label="GitLab">
-                    <a href="https://gitlab.com/geeksesi">geeksesi</a>
+                <Descriptions.Item>
+                    <a href="https://gitlab.com/geeksesi">
+                        <i class="fa fa-gitlab"></i>
+                    </a>
                 </Descriptions.Item>
-                <Descriptions.Item label="GitHub">
-                    <a href="https://github.com/geeksesi">geeksesi</a>
+                <Descriptions.Item>
+                    <a href="https://github.com/geeksesi">
+                        <i class="fa fa-github"></i>
+                    </a>
                 </Descriptions.Item>
-                <Descriptions.Item label="Telegram">
-                    <a href="https://t.me/geeksesi">@geeksesi</a>
+                <Descriptions.Item>
+                    <a href="https://t.me/geeksesi">
+                        <i class="fa fa-telegram"></i>
+                    </a>
                 </Descriptions.Item>
-                <Descriptions.Item label="Blog">
-                    <a href="https://geeksesi.ir">وبلاگ محمد جواد قاسمی</a>
+                <Descriptions.Item>
+                    <a href="https://geeksesi.ir">
+                        <i class="fa fa-rss"></i>
+                    </a>
                 </Descriptions.Item>
             </Descriptions>
         </div>
