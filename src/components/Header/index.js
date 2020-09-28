@@ -15,11 +15,9 @@ export default () => {
                         <h4>برنامه نویس بک‌اند</h4>
                     </Row>
                     <Row className="social">
-                        <Descriptions column={2}>
+                        <Descriptions column={{ xs: 1, md: 2 }}>
                             <Descriptions.Item label="شماره تماس">09100101543</Descriptions.Item>
-                            <Descriptions.Item label="ایمیل">
-                                Geeksesi [@] gmail [.] com
-                            </Descriptions.Item>
+                            <Descriptions.Item label="ایمیل">Geeksesi@gmail.com</Descriptions.Item>
                         </Descriptions>
                     </Row>
                 </Col>

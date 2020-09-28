@@ -12,13 +12,8 @@ export default () => {
                 <Row>
                     <h4 className="Year">1399</h4>
                     <h4 className="Title">
-                        سرویس پرداخت{" "}
-                        <a
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href="https://gitlab.com/payzos"
-                        >
-                            Payzos
+                        <a rel="noopener noreferrer" target="_blank" href="https://payzos.io">
+                            سرویس پرداخت Payzos
                         </a>
                     </h4>
                 </Row>
@@ -27,9 +22,11 @@ export default () => {
                 </Row>
                 <Row>
                     <p>
-                        Payzos سرویس درگاه‌پرداختی آزاد و متن‌باز برای شبکه Tezos است و برای
-                        دارندگان فروشگاه های مجازی امکان دریافت وجه از طریق این رمزارز را فراهم می
-                        کند.
+                        <a rel="noopener noreferrer" target="_blank" href="https://payzos.io">
+                            Payzos
+                        </a>{" "}
+                        سرویس درگاه‌پرداختی آزاد و متن‌باز برای شبکه Tezos است و برای دارندگان
+                        فروشگاه های مجازی امکان دریافت وجه از طریق این رمزارز را فراهم می کند.
                     </p>
                     <p>
                         وظیفه اصلی این سرویس ارائه خدمات پرداخت برای این فروشگاه‌سازهاست: <br />
@@ -44,7 +41,7 @@ export default () => {
                                 </a>
                                 <Row className="sub-tech">
                                     <small>MVC</small>
-                                    <small>RestApi</small>
+                                    <small>REST API</small>
                                 </Row>
                             </li>
                             <li>
@@ -57,7 +54,7 @@ export default () => {
                                 </a>
                                 <Row className="sub-tech">
                                     <small>MVC</small>
-                                    <small>RestApi</small>
+                                    <small>REST API</small>
                                 </Row>
                             </li>
                             <li>
@@ -84,7 +81,7 @@ export default () => {
                                 </a>
                                 <Row className="sub-tech">
                                     <small>MVC</small>
-                                    <small>RestApi</small>
+                                    <small>REST API</small>
                                 </Row>
                             </li>
                         </ul>
@@ -106,8 +103,16 @@ export default () => {
                                 <Row className="sub-tech">
                                     <small>MVC</small>
                                     <small>Composer</small>
-                                    <small>RestApi</small>
-                                    <small>FastRoute</small>
+                                    <small>REST API</small>
+                                    <small>
+                                        <a
+                                            rel="noopener noreferrer"
+                                            target="_blank"
+                                            href="https://github.com/nikic/FastRoute"
+                                        >
+                                            FastRoute
+                                        </a>
+                                    </small>
                                 </Row>
                             </li>
                             <li>
@@ -154,6 +159,22 @@ export default () => {
                                 <a
                                     rel="noopener noreferrer"
                                     target="_blank"
+                                    href="https://gitlab.com/s-mtz/mangadl_tbot"
+                                >
+                                    ربات تلگرام دانلود مانگا و تبدیل عکس به pdf
+                                </a>
+                                <Row className="sub-tech">
+                                    <small>PHP</small>
+                                    <small>MVC</small>
+                                    <small>OOP</small>
+                                    <small>Composer</small>
+                                    <small>TDD</small>
+                                </Row>
+                            </li>
+                            <li>
+                                <a
+                                    rel="noopener noreferrer"
+                                    target="_blank"
                                     href="https://github.com/geeksesi/wp-zilon-woocommerce"
                                 >
                                     افزونه وردپرس درگاه پرداخت زیلون
@@ -161,7 +182,7 @@ export default () => {
                                 <Row className="sub-tech">
                                     <small>Wordpress</small>
                                     <small>MVC</small>
-                                    <small>RestApi</small>
+                                    <small>REST API</small>
                                 </Row>
                             </li>
                             <li>
@@ -189,22 +210,6 @@ export default () => {
                                 <Row className="sub-tech">
                                     <small>Python</small>
                                     <small>OOP</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/s-mtz/mangadl_tbot"
-                                >
-                                    ربات تلگرام دانلود مانگا و تبدیل عکس به pdf
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>PHP</small>
-                                    <small>MVC</small>
-                                    <small>OOP</small>
-                                    <small>Composer</small>
-                                    <small>TDD</small>
                                 </Row>
                             </li>
                             <li>
