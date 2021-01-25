@@ -5,8 +5,52 @@ export default () => {
     return (
         <div className="Experience">
             <Row>
-                <h3>تجربیات</h3>
+                <h3>خلاصه فعالیت‌ها</h3>
             </Row>
+
+            <>
+                <Row>
+                    <h4 className="Year">1399</h4>
+                    <h4 className="Title">
+                        <a rel="noopener noreferrer" target="_blank" href="https://olivecademy.com">
+                            اکادمی زیتون‌سبز
+                        </a>
+                    </h4>
+                </Row>
+                <Row>
+                    <p>
+                        زنده کردن پروژه نسبتا قدیمی آکادمی و راه انداختن چرخه توسعه دوباره این
+                        <Row className="sub-tech">
+                            <small>داکرایز پروژه و ساخت محیط توسعه برای لاراول 5.8, nodejs 8</small>
+                        </Row>
+                        سرویس. برخی فعالیت های انجام شده :
+                        <ul>
+                            <li>
+                                <a>فایل سیستم</a>
+                                <Row className="sub-tech">
+                                    <small>nodejs</small>
+                                    <small>Docker</small>
+                                    <small>mysql</small>
+                                </Row>
+                            </li>
+                            <li>
+                                <a>داشبورد مدیریت و اساتید</a>
+                                <Row className="sub-tech">
+                                    <small>Laravel</small>
+                                    <small>React</small>
+                                </Row>
+                            </li>
+                            <li>
+                                <a>بخش نظرات سایت</a>
+                                <Row className="sub-tech">
+                                    <small>Laravel</small>
+                                    <small>Html & css</small>
+                                </Row>
+                            </li>
+                        </ul>
+                    </p>
+                </Row>
+            </>
 
             <>
                 <Row>
