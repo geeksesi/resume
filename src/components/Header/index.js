@@ -12,7 +12,7 @@ export default () => {
                         <h1>محمد جواد قاسمی</h1>
                     </Row>
                     <Row>
-                        <h4>برنامه نویس بک‌اند</h4>
+                        <h4>Junior Fullstack</h4>
                     </Row>
                     <Row className="social">
                         <Descriptions column={{ xs: 1, md: 2 }}>
