@@ -10,44 +10,107 @@ export default () => {
 
             <>
                 <Row>
-                    <h4 className="Year">1399</h4>
+                    <h4 className="Year">1400</h4>
                     <h4 className="Title">
-                        <a rel="noopener noreferrer" target="_blank" href="https://olivecademy.com">
-                            اکادمی زیتون‌سبز
+                        <a rel="noopener noreferrer" target="_blank" href="http://majazeh.ir/">
+                            گروه مجازه
                         </a>
                     </h4>
                 </Row>
                 <Row>
                     <p>
-                        زنده کردن پروژه نسبتا قدیمی آکادمی و راه انداختن چرخه توسعه دوباره این
+                        توسعه و نگهداری فروشگاه ایمول{" "}
+                        <a rel="noopener noreferrer" target="_blank" href="https://emall.market">
+                            Emall
+                        </a>
+                        .
                         <Row className="sub-tech">
-                            <small>داکرایز پروژه و ساخت محیط توسعه برای لاراول 5.8, nodejs 8</small>
+                            <small>laravel</small>
+                            <small>Ajax</small>
+                            <small>Javascript</small>
+                            <small>Oracle Cloud Infrastructure</small>
                         </Row>
-                        سرویس. برخی فعالیت های انجام شده :
-                        <ul>
-                            <li>
-                                <a>فایل سیستم</a>
-                                <Row className="sub-tech">
-                                    <small>nodejs</small>
-                                    <small>Docker</small>
-                                    <small>mysql</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a>داشبورد مدیریت و اساتید</a>
-                                <Row className="sub-tech">
-                                    <small>Laravel</small>
-                                    <small>React</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a>بخش نظرات سایت</a>
-                                <Row className="sub-tech">
-                                    <small>Laravel</small>
-                                    <small>Html & css</small>
-                                </Row>
-                            </li>
-                        </ul>
+                    </p>
+                </Row>
+                <Row>
+                    <p>
+                        <a rel="noopener noreferrer" target="_blank" href="https://tooba.app/">
+                            Tooba
+                        </a>
+                        <Row className="sub-tech">
+                            <small>laravel</small>
+                            <small>GraphQL</small>
+                        </Row>
+                    </p>
+                </Row>
+            </>
+
+            <>
+                <Row>
+                    <h4 className="Year">1400</h4>
+                    <h4 className="Title">
+                        <a rel="noopener noreferrer" target="_blank" href="https://zanjani.ir">
+                            وبسایت آیت الله العظمی شبیری زنجانی
+                        </a>
+                    </h4>
+                </Row>
+                <Row>
+                    <h5 className="JobTitle">مدیر پروژه - برنامه‌نویس</h5>
+                </Row>
+                <Row>
+                    <p>
+                        بازسازی سایت آیت الله زنجانی و مهاجرت از سیستم تبیان به وردپرس.
+                        <Row className="sub-tech">
+                            <small>Wordpress</small>
+                            <small>Ajax</small>
+                            <small>Javascript</small>
+                            <small>PHP</small>
+                        </Row>
+                    </p>
+                </Row>
+            </>
+
+            <>
+                <Row>
+                    <h4 className="Year">از سال 1399</h4>
+                    <h4 className="Title">
+                        <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCurthvdUrUirkqHzKZmcoPA"
+                        >
+                            تولید محتوای فنی ویدئویی (youtube - aparat)
+                        </a>
+                    </h4>
+                </Row>
+                <Row>
+                    <p>
+                        تولیدمحتوای ویدئوی برای دانشجویان جدید الورود دانشگاه ( آموزش فلوچارت -
+                        سی‌پلاس‌پلاس) و محتوای تخصصی تر برای افراد تازه‌کار تیم.
+                    </p>
+                </Row>
+            </>
+
+            <>
+                <Row>
+                    <h4 className="Year">1399</h4>
+                    <h4 className="Title">
+                        <a rel="noopener noreferrer" target="_blank" href="https://olivecademy.com">
+                            تیم نرم افزاری زیتون سبز
+                        </a>
+                    </h4>
+                </Row>
+                <Row>
+                    <h5 className="JobTitle">برنامه‌نویس بک‌اند</h5>
+                </Row>
+                <Row>
+                    <p>
+                        توسعه و نگهداری پروژه نسبتا قدیمی آکادمی زیتون سبز
+                        <Row className="sub-tech">
+                            <small>Laravel</small>
+                            <small>React</small>
+                            <small>devops</small>
+                        </Row>
                     </p>
                 </Row>
             </>
@@ -62,7 +125,7 @@ export default () => {
                     </h4>
                 </Row>
                 <Row>
-                    <h5 className="JobTitle">مدیرفنی و برنامه‌نویس بک‌اند</h5>
+                    <h5 className="JobTitle">برنامه‌نویس بک‌اند</h5>
                 </Row>
                 <Row>
                     <p>
@@ -191,8 +254,26 @@ export default () => {
 
             <>
                 <Row>
-                    <h4 className="Year">1397 - 1398</h4>
-                    <h4 className="Title">فریلنسری</h4>
+                    <h4 className="Year">از سال 1398</h4>
+                    <h4 className="Title">
+                        <a>دانشگاه آزاد اسلامی قم</a>
+                    </h4>
+                </Row>
+                <Row>
+                    <p>
+                        تدریسیار استاد اسماعیلی، عضو هیئت علمی مهندسی کامپیوتر دانشگاه آزاد قم.
+                        <br />
+                        <br />
+                        رفع‌اشکال دانشجویان، برگذاری کلاس حل‌تمرین، همکاری در برگذاری کارگاه‌های
+                        انجمن‌علمی.
+                    </p>
+                </Row>
+            </>
+
+            <>
+                <Row>
+                    <h4 className="Year">از سال 1397</h4>
+                    <h4 className="Title">فریلنسری و پروژه های اپن‌سورس</h4>
                 </Row>
                 <Row>
                     <p>
@@ -213,33 +294,7 @@ export default () => {
                                     <small>OOP</small>
                                     <small>Composer</small>
                                     <small>TDD</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://github.com/geeksesi/wp-zilon-woocommerce"
-                                >
-                                    افزونه وردپرس درگاه پرداخت زیلون
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>Wordpress</small>
-                                    <small>MVC</small>
-                                    <small>REST API</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://github.com/geeksesi/LeaderBoardApi"
-                                >
-                                    سرویس لیدربورد برای بازی های رقابتی{" "}
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>MVC</small>
-                                    <small>PHP</small>
+                                    <small>Docker</small>
                                 </Row>
                             </li>
                             <li>
