@@ -228,7 +228,7 @@ export default () => {
                                     target="_blank"
                                     href="https://gitlab.com/payzos/payzos-frontend"
                                 >
-                                    Frontrnd{" "}
+                                    Front-End{" "}
                                 </a>
                                 <Row className="sub-tech">
                                     <small>React</small>
@@ -264,7 +264,7 @@ export default () => {
                         تدریسیار استاد اسماعیلی، عضو هیئت علمی مهندسی کامپیوتر دانشگاه آزاد قم.
                         <br />
                         <br />
-                        رفع‌اشکال دانشجویان، برگذاری کلاس حل‌تمرین، همکاری در برگذاری کارگاه‌های
+                        رفع‌اشکال دانشجویان، برگزاری کلاس حل‌تمرین، همکاری در برگزاری کارگاه‌های
                         انجمن‌علمی.
                     </p>
                 </Row>
