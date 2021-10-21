@@ -79,7 +79,7 @@ export default () => {
                             target="_blank"
                             href="https://www.youtube.com/channel/UCurthvdUrUirkqHzKZmcoPA"
                         >
-                            تولید محتوای فنی ویدئویی (youtube - aparat)
+                            تولید محتوای فنی ویدئویی youtube
                         </a>
                     </h4>
                 </Row>

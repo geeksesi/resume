@@ -12,8 +12,8 @@ export default () => {
                     </a>
                 </Descriptions.Item>
                 <Descriptions.Item>
-                    <a href="https://gitlab.com/geeksesi">
-                        <i class="fa fa-gitlab"></i>
+                    <a href="https://www.youtube.com/channel/UCurthvdUrUirkqHzKZmcoPA">
+                        <i class="fa fa-youtube"></i>
                     </a>
                 </Descriptions.Item>
                 <Descriptions.Item>
