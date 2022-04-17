@@ -10,6 +10,74 @@ export default () => {
 
             <>
                 <Row>
+                    <h4 className="Year">1400 - 1401</h4>
+                    <h4 className="Title">
+                        <a rel="noopener noreferrer" target="_blank" href="https://signalads.com/">
+                            سیگنال
+                        </a>
+                    </h4>
+                </Row>
+                <Row>
+                    <p>
+                        توسعه و نگهداری -{" "}
+                        <a rel="noopener noreferrer" target="_blank" href="https://virafruits.com/">
+                            CRM ویرا
+                        </a>{" "}
+                        و{" "}
+                        <a rel="noopener noreferrer" target="_blank" href="https://viratracker.ir/">
+                            ویرا ترکر
+                        </a>
+                        .
+                        <Row className="sub-tech">
+                            <small>Laravel</small>
+                            <small>GraphQL</small>
+                            <small>Repository pattern</small>
+                        </Row>
+                    </p>
+                </Row>
+                <Row>
+                    <p>
+                        ساخت و توسعه{" "}
+                        <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://github.com/signalads-co"
+                        >
+                            وب‌سرویس پیامک سیگنال
+                        </a>
+                        <Row className="sub-tech">
+                            <small>Laravel</small>
+                            <small>RestApi</small>
+                            <small>Postgresql</small>
+                            <small>RabbitMQ</small>
+                            <small>Redis</small>
+                            <small>TDD</small>
+                            <small>سند نویسی</small>
+                        </Row>
+                    </p>
+                </Row>
+            </>
+
+            <>
+                <Row>
+                    <h4 className="Year">1400 تاکنون</h4>
+                    <h4 className="Title">
+                        <a
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            href="https://www.youtube.com/channel/geeksesi"
+                        >
+                            آموزش برنامه‌نویسی
+                        </a>
+                    </h4>
+                </Row>
+                <Row>
+                    <p>تولید محتوای ویدئویی و آموزش حضوری برنامه‌نویسی پی‌اچ‌پی</p>
+                </Row>
+            </>
+
+            <>
+                <Row>
                     <h4 className="Year">1400</h4>
                     <h4 className="Title">
                         <a rel="noopener noreferrer" target="_blank" href="http://majazeh.ir/">
@@ -25,7 +93,7 @@ export default () => {
                         </a>
                         .
                         <Row className="sub-tech">
-                            <small>laravel</small>
+                            <small>Laravel</small>
                             <small>Ajax</small>
                             <small>Javascript</small>
                             <small>Oracle Cloud Infrastructure</small>
@@ -38,7 +106,7 @@ export default () => {
                             Tooba
                         </a>
                         <Row className="sub-tech">
-                            <small>laravel</small>
+                            <small>Laravel</small>
                             <small>GraphQL</small>
                         </Row>
                     </p>
@@ -72,14 +140,14 @@ export default () => {
 
             <>
                 <Row>
-                    <h4 className="Year">از سال 1399</h4>
+                    <h4 className="Year">1399</h4>
                     <h4 className="Title">
                         <a
                             rel="noopener noreferrer"
                             target="_blank"
-                            href="https://www.youtube.com/channel/UCurthvdUrUirkqHzKZmcoPA"
+                            href="https://t.me/geeksesi/2444"
                         >
-                            تولید محتوای فنی ویدئویی youtube
+                            تولید محتوای فنی
                         </a>
                     </h4>
                 </Row>
@@ -118,11 +186,7 @@ export default () => {
             <>
                 <Row>
                     <h4 className="Year">1399</h4>
-                    <h4 className="Title">
-                        <a rel="noopener noreferrer" target="_blank" href="https://payzos.io">
-                            سرویس پرداخت Payzos
-                        </a>
-                    </h4>
+                    <h4 className="Title">سرویس پرداخت Payzos</h4>
                 </Row>
                 <Row>
                     <h5 className="JobTitle">برنامه‌نویس بک‌اند</h5>
@@ -255,9 +319,7 @@ export default () => {
             <>
                 <Row>
                     <h4 className="Year">از سال 1398</h4>
-                    <h4 className="Title">
-                        <a>دانشگاه آزاد اسلامی قم</a>
-                    </h4>
+                    <h4 className="Title">دانشگاه آزاد اسلامی قم</h4>
                 </Row>
                 <Row>
                     <p>
@@ -301,28 +363,16 @@ export default () => {
                                 <a
                                     rel="noopener noreferrer"
                                     target="_blank"
-                                    href="https://github.com/geeksesi/QIAU-tg-bot-manager"
+                                    href="https://github.com/geeksesi/guess_emoji_telegram_bot"
                                 >
-                                    ربات cli تلگرام مدیریت اعضای کانال و گروه برای دانشگاه آزاد
-                                    اسلامی قم
+                                    ربات تلگرام بازی حدس ایموجی
                                 </a>
                                 <Row className="sub-tech">
-                                    <small>Python</small>
-                                    <small>OOP</small>
-                                </Row>
-                            </li>
-                            <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/kmtqom/search-book-by-isbn"
-                                >
-                                    جستجوی اطلاعات کتاب براساس شابک کتاب
-                                </a>
-                                <Row className="sub-tech">
-                                    <small>ComposerLib</small>
-                                    <small>TDD</small>
-                                    <small>Scammer</small>
+                                    <small>Youtube</small>
+                                    <small>PHP</small>
+                                    <small>Mysql</small>
+                                    <small>Redis</small>
+                                    <small>Phinx</small>
                                 </Row>
                             </li>
                         </ul>
