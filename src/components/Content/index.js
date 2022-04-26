@@ -4,7 +4,7 @@ import "./styles.css";
 import Skills from "./Skills/";
 import Education from "./Education/";
 import Social from "./Social/";
-import Awards from "./Awards/";
+// import Awards from "./Awards/";
 import Experience from "./Experience/";
 
 export default () => {
@@ -21,9 +21,9 @@ export default () => {
                             html-css و وردپرس، از سن کم شروع کردم به ساختن سایت و یادگرفتن، از سال
                             96 شروع به برنامه‌نویسی با زبان php کردم و بعد از چندماه به صورت کارآموز
                             خدمت شرکت ارمایل بودم که کمکم کرد نقش و مسیر خودم رو توی برنامه‌نویسی
-                            پیداکنم، از همون زمان مسیر برنامه‌س‌نویسی سمت سرور رو پیش گرفتم، با
-                            python, php, nodejs کار کردم و سعی کردم توی گروه‌های دانشجویی روی
-                            پروژه‌های متنوع تجربه کسب کنم.
+                            پیداکنم، از همون زمان مسیر برنامه‌س‌نویسی سمت سرور رو پیش گرفتم، با php,
+                            nodejs کار کردم و سعی کردم روی پروژه‌های مختلفی در کنار آدم‌های دیگه کار
+                            کنم تا با کارگروهی و توسعه پروژه دیگران آشنا شوم.
                         </p>
                     </Row>
                 </div>
