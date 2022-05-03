@@ -6,8 +6,8 @@ import "./styles.css";
 export default () => {
     return (
         <div className="Headers">
-            <Row align="middle">
-                <Col xs={{ span: 24, order: 2 }} sm={{ span: 20, order: 1 }}>
+            <Row align="middle" justify="space-between">
+                <Col xs={{ span: 24, order: 2 }} sm={{ span: 16, order: 2 }}>
                     <Row>
                         <h1>محمد جواد قاسمی</h1>
                     </Row>
@@ -21,7 +21,7 @@ export default () => {
                         </Descriptions>
                     </Row>
                 </Col>
-                <Col xs={{ span: 24, order: 1 }} sm={{ span: 4, order: 2 }} className="logo">
+                <Col xs={{ span: 24, order: 1 }} sm={{ span: 5, order: 1 }} className="logo">
                     <center>
                         <img src={myPic} alt="Mohammad Javad Ghasemy" />
                     </center>
