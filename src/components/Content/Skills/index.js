@@ -5,7 +5,7 @@ import "./styles.css";
 export default () => {
     return (
         <div className="Skills">
-            <Descriptions title="مهارت‌ها" column={3}>
+            <Descriptions title="مهارت‌ها" column={2}>
                 <Descriptions.Item label="">
                     <bold>PHP</bold>
                 </Descriptions.Item>

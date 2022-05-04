@@ -5,7 +5,7 @@ import * as serviceWorker from "./serviceWorker";
 import { ConfigProvider } from "antd";
 import "./index.css";
 ReactDOM.render(
-    <ConfigProvider direction="rtl">
+    <ConfigProvider direction="ltr">
         <React.StrictMode>
             <App />
         </React.StrictMode>
