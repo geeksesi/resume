@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b123910cc06ac7b65d1534f20c6481b",
+    "revision": "70a7905bd6c0a09749d75627a00c2566",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.0a1c9219.chunk.css"
   },
   {
-    "revision": "3d720ba0c3920e32e471",
+    "revision": "0ea6d24e9239d061912b",
     "url": "/static/css/main.dfff91b6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f21c07cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d720ba0c3920e32e471",
-    "url": "/static/js/main.b43707c9.chunk.js"
+    "revision": "0ea6d24e9239d061912b",
+    "url": "/static/js/main.2338ab4b.chunk.js"
   },
   {
     "revision": "73a4f215652a07459b34",
@@ -124,7 +124,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Vazir-WOL.c0c20ba0.ttf"
   },
   {
-    "revision": "df7d38fd626142b4721f79817e7f90a0",
-    "url": "/static/media/me.df7d38fd.jpeg"
+    "revision": "0c4b57599c640f9f16195f3e3d722688",
+    "url": "/static/media/me.0c4b5759.jpeg"
   }
 ]);
