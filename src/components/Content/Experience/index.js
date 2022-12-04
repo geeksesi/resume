@@ -10,6 +10,53 @@ export default () => {
 
             <>
                 <Row>
+                    <h4 className="Year">1401 تاکنون</h4>
+                    <h4 className="Title">
+                        <a rel="noopener noreferrer" target="_blank" href="https://www.jackwestin.com/">
+                            JackWestin
+                        </a>
+                    </h4>
+                </Row>
+                <Row>
+                    <p>برند برگزار کننده دوره‌های آموزشی و آمادگی برای آزمون پذیرش دانشکده پزشکی</p>
+                </Row>
+                <Row>
+                    <p>
+                        بهینه سازی و توسعه بخش‌های قدیمی سایت.
+                        <Row className="sub-tech">
+                            <small>Laravel</small>
+                            <small>Redis</small>
+                            <small>Mysql</small>
+                            <small>
+                                <a href="https://stripe.com/">Stripe</a>
+                            </small>
+                            <small>
+                                <a href="https://nova.laravel.com/">Nova</a>
+                            </small>
+                            <small>TDD</small>
+                        </Row>
+                    </p>
+                </Row>
+                <Row>
+                    <p>
+                        ساخت و توسعه{" "}
+                        <a rel="noopener noreferrer" target="_blank" href="https://jackwestin.com/flashcards/">
+                            سیستم فلش‌کارت بر پایه Anki{" "}
+                        </a>
+                        <Row className="sub-tech">
+                            <small>Laravel</small>
+                            <small>Redis</small>
+                            <small>Mysql</small>
+                            <small>TDD</small>
+                            <small>
+                                <a href="https://ankiweb.net/">Anki</a>
+                            </small>
+                        </Row>
+                    </p>
+                </Row>
+            </>
+            <>
+                <Row>
                     <h4 className="Year">1400</h4>
                     <h4 className="Title">
                         <a rel="noopener noreferrer" target="_blank" href="https://signalads.com/">
@@ -38,11 +85,7 @@ export default () => {
                 <Row>
                     <p>
                         ساخت و توسعه{" "}
-                        <a
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href="https://github.com/signalads-co"
-                        >
+                        <a rel="noopener noreferrer" target="_blank" href="https://github.com/signalads-co">
                             وب‌سرویس پیامک سیگنال
                         </a>
                         <Row className="sub-tech">
@@ -62,11 +105,7 @@ export default () => {
                 <Row>
                     <h4 className="Year">1400 تاکنون</h4>
                     <h4 className="Title">
-                        <a
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href="https://www.youtube.com/channel/geeksesi"
-                        >
+                        <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/geeksesi">
                             آموزش برنامه‌نویسی
                         </a>
                     </h4>
@@ -104,11 +143,7 @@ export default () => {
                             </li>
                             <li>
                                 توسعه و نگهداری فروشگاه{" "}
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://emall.market"
-                                >
+                                <a rel="noopener noreferrer" target="_blank" href="https://emall.market">
                                     Emall
                                 </a>
                                 <br />
@@ -120,11 +155,7 @@ export default () => {
                                 </Row>
                             </li>
                             <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://zanjani.ir"
-                                >
+                                <a rel="noopener noreferrer" target="_blank" href="https://zanjani.ir">
                                     وبسایت آیت الله العظمی شبیری زنجانی
                                 </a>
                                 <br />
@@ -137,17 +168,12 @@ export default () => {
                                 </Row>
                             </li>
                             <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://gitlab.com/payzos"
-                                >
+                                <a rel="noopener noreferrer" target="_blank" href="https://gitlab.com/payzos">
                                     Payzos
                                 </a>
                                 <br />
-                                سرویس درگاه‌پرداختی آزاد و متن‌باز برای شبکه Tezos است و برای
-                                دارندگان فروشگاه های مجازی امکان دریافت وجه از طریق این رمزارز را
-                                فراهم می کند.
+                                سرویس درگاه‌پرداختی آزاد و متن‌باز برای شبکه Tezos است و برای دارندگان فروشگاه های مجازی
+                                امکان دریافت وجه از طریق این رمزارز را فراهم می کند.
                                 <Row className="sub-tech">
                                     <small>RestApi</small>
                                     <small>PHP</small>
@@ -178,11 +204,7 @@ export default () => {
                         <br />
                         <ul>
                             <li>
-                                <a
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    href="https://github.com/Ermile/PHP-URL"
-                                >
+                                <a rel="noopener noreferrer" target="_blank" href="https://github.com/Ermile/PHP-URL">
                                     ساختار شی‌گرایی و حل مسئله
                                 </a>
                             </li>
