@@ -1,36 +1,38 @@
 {
-  "name": "resume-mohammad-javad-ghasemy",
-  "version": "1.0.0",
-  "private": true,
-  "description": "resume-mohammad-javad-ghasemy",
-  "author": "Mohammad Javad Ghasemy",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@mdx-js/react": "^2.2.1",
-    "gatsby": "^5.3.3",
-    "gatsby-plugin-google-gtag": "^5.3.0",
-    "gatsby-plugin-image": "^3.3.2",
-    "gatsby-plugin-manifest": "^5.3.1",
-    "gatsby-plugin-mdx": "^5.3.1",
-    "gatsby-plugin-sharp": "^5.3.2",
-    "gatsby-source-filesystem": "^5.3.1",
-    "gatsby-transformer-sharp": "^5.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "gatsby-plugin-postcss": "^6.3.0",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4"
-  }
+    "name": "resume-mohammad-javad-ghasemy",
+    "version": "1.0.0",
+    "private": true,
+    "description": "resume-mohammad-javad-ghasemy",
+    "author": "Mohammad Javad Ghasemy",
+    "keywords": [
+        "gatsby"
+    ],
+    "scripts": {
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "deploy": "gatsby build && gh-pages -d public"
+    },
+    "dependencies": {
+        "@mdx-js/react": "^2.2.1",
+        "gatsby": "^5.3.3",
+        "gatsby-plugin-google-gtag": "^5.3.0",
+        "gatsby-plugin-image": "^3.3.2",
+        "gatsby-plugin-manifest": "^5.3.1",
+        "gatsby-plugin-mdx": "^5.3.1",
+        "gatsby-plugin-sharp": "^5.3.2",
+        "gatsby-source-filesystem": "^5.3.1",
+        "gatsby-transformer-sharp": "^5.3.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.13",
+        "gatsby-plugin-postcss": "^6.3.0",
+        "gh-pages": "^4.0.0",
+        "postcss": "^8.4.21",
+        "tailwindcss": "^3.2.4"
+    }
 }
