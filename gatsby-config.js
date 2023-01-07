@@ -8,12 +8,12 @@ module.exports = {
     },
     plugins: [
         "gatsby-plugin-postcss",
-        "gatsby-plugin-google-gtag",
+        // "gatsby-plugin-google-gtag",
         "gatsby-plugin-image",
         {
             resolve: "gatsby-plugin-manifest",
             options: {
-                icon: "./src/assets/logo.png",
+                icon: "src/assets/logo.png",
             },
         },
         "gatsby-plugin-mdx",
