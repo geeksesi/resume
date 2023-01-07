@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkresume_mohammad_javad_ghasemy=self.webpackChunkresume_mohammad_javad_ghasemy||[]).push([[883],{429:function(e,a,t){t.r(a),t.d(a,{Head:function(){return u}});var n=t(7294);t(1883);a.default=()=>n.createElement("h1",null,"NotFound");const u=()=>n.createElement("title",null,"Not found")}}]);
+//# sourceMappingURL=component---src-pages-404-js-7784a8d03e4368a996d1.js.map
