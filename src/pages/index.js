@@ -207,12 +207,6 @@ export default () => (
                                         </p>
                                         <ul>
                                             <li className="py-1 px-5 text-justify">
-                                                Developed the most viewed website for{" "}
-                                                <a href="https://zanjani.ir">Ayatollah Shobeiri Zanjani</a> using
-                                                WordPress, PHP, and Ajax, including data migration, website
-                                                optimization, and integration of payment and Q/A bank systems
-                                            </li>
-                                            <li className="py-1 px-5 text-justify">
                                                 Created a PHP and Telegram bot-based game called{" "}
                                                 <a href="https://github.com/geeksesi/guess_emoji_telegram_bot">
                                                     Guess Emoji Game
