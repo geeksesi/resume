@@ -26,7 +26,7 @@ export default () => (
             <main className="flex max-w-screen-xl mx-auto">
                 <div className="sidebar">
                     <div className="flex justify-center pb-5">
-                        <img src={avatar} className="" width="90%" />
+                        <img src={avatar} className="aspect-square" width="90%" />
                     </div>
                     <div className="px-10">
                         <div className="mx-auto border-l-2 border-black border-opacity-70 my-1">
