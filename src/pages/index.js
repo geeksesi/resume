@@ -23,7 +23,7 @@ export default () => (
                     <h2 className="flex-1 text-lg font-sans">BackEnd Developer</h2>
                 </div>
             </header>
-            <main className="flex max-w-screen-xl mx-auto">
+            <main className="flex max-w-screen-xl mx-auto flex-wrap">
                 <div className="sidebar">
                     <div className="flex justify-center pb-5">
                         <img src={avatar} className="aspect-square" width="90%" />
