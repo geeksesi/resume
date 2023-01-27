@@ -14,7 +14,6 @@ export default (data) => {
         youtube: youtube,
     };
     const resume = data.data.resumeJson;
-    console.log(resume);
     return (
         <>
             <Layout className="block font-sans">
