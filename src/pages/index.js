@@ -1,14 +1,10 @@
 import * as React from "react";
-import Layout from "../components/Layout";
-import "../styles/index.css";
-import avatar from "../assets/images/me.jpg";
-import github from "../assets/images/github.png";
-import linkedIn from "../assets/images/linkedin.png";
-import youtube from "../assets/images/youtube.png";
-import { Link, navigate } from "gatsby";
+import { navigate } from "gatsby";
 
 export default () => {
-    navigate("/backend-developer");
+    if (typeof window !== `undefined`) {
+        navigate("/backend-developer");
+    }
     return <></>;
 };
 
