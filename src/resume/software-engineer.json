@@ -1,7 +1,7 @@
 {
-    "slug": "backend-developer",
+    "slug": "software-engineer",
     "name": "Mohammad Javad Ghasemy",
-    "title": "Backend Developer",
+    "title": "Software Engineer",
     "contact": [
         {
             "value": "+989100101543",
@@ -34,6 +34,23 @@
         "Frontend development skills",
         "Teaching and Mentorship",
         "Efficient learner"
+    ],
+    "projects": [
+        {
+            "title": "CodeReviewPals.com",
+            "url": "https://github.com/CodeReviewPals/code-review-pals/",
+            "thumbnail": "CodeReviewPals"
+        },
+        {
+            "title": "Guess Emoji Telegram Game",
+            "url": "https://github.com/geeksesi/guess_emoji_telegram_bot",
+            "thumbnail": "GuessEmoji"
+        },
+        {
+            "title": "My Resume",
+            "url": "https://github.com/geeksesi/resume",
+            "thumbnail": "Resume"
+        }
     ],
     "about": "I am an experienced PHP backend developer with a strong background in developing web applications. I have a track record of delivering high-quality projects for clients in various industries. In addition to my technical skills, I also have a passion for mentoring junior developers and enjoy working as part of a team.",
     "experiences": [

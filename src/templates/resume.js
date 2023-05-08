@@ -6,6 +6,7 @@ import github from "../assets/images/github.png";
 import linkedIn from "../assets/images/linkedin.png";
 import youtube from "../assets/images/youtube.png";
 import { graphql } from "gatsby";
+import Projects from "../components/Resume/Projects";
 
 export default (data) => {
     const socials = {
@@ -68,6 +69,8 @@ export default (data) => {
                                 </ul>
                             </div>
                         </div>
+
+                        <Projects projects={resume.projects} />
                     </div>
 
                     <div className="main">
@@ -141,6 +144,11 @@ export const query = graphql`
                 link
             }
             skills
+            projects {
+                title
+                url
+                thumbnail
+            }
             about
             experiences {
                 title
