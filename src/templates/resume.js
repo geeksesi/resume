@@ -76,8 +76,11 @@ export default (data) => {
                     <div className="main">
                         <div className="px-10">
                             <div className="mx-auto border-l-2 border-black border-opacity-70 my-1">
-                                <h3 className="p-4 text-2xl">Profile</h3>
-                                <p className="px-4 text-sm pb-4 text-justify">{resume.about}</p>
+                                <h3 className="p-4 text-2xl">About me</h3>
+                                <p
+                                    className="px-4 text-sm pb-4 text-justify"
+                                    dangerouslySetInnerHTML={{ __html: resume.about }}
+                                ></p>
                             </div>
                         </div>
                         <div className="px-10">
