@@ -1,11 +1,11 @@
 import * as React from "react";
-import { navigate } from "gatsby";
+import { Link, navigate } from "gatsby";
 
 export default () => {
     if (typeof window !== `undefined`) {
-        navigate("/backend-developer");
+        navigate("/software-engineer");
     }
-    return <></>;
+    return <Link to="/software-engineer/"></Link>;
 };
 
 export const Head = () => <title>Resume Mohammad Javad Ghasemy</title>;
