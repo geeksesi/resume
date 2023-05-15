@@ -4,10 +4,6 @@
     "title": "Software Engineer",
     "contact": [
         {
-            "value": "+989100101543",
-            "link": "tel:+989100101543"
-        },
-        {
             "value": "geeksesi@gmail.com",
             "link": "mailto:geeksesi@gmail.com"
         }
@@ -37,7 +33,8 @@
         "Teamwork and collaboration",
         "Frontend development skills",
         "Teaching and Mentorship",
-        "Efficient learner"
+        "Efficient learner",
+        "Test-Driven Development (TDD)"
     ],
     "projects": [
         {
@@ -70,7 +67,7 @@
                 "Troubleshot and debugged code to maintain optimal performance for the system.",
                 "Worked closely with team members to establish software architecture and documentation, ensuring maintainability and scalability of the code base for future development."
             ],
-            "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "Stripe"]
+            "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "Stripe", "TDD"]
         },
         {
             "title": "<strong>Software Developer</strong> at <strong>Signalads.com</strong> (2021 - 2022) - Hybrid",
@@ -81,7 +78,7 @@
                 "Led a team of developers to refactor the old SMS broadcast panel, improving the data structure, synchronization, and processing speed using RabbitMQ and Laravel. Ensured that the codebase was well-documented and maintainable for future development.",
                 "Contributed to the company's agile development process and facilitated communication between the development team and non-technical stakeholders. Helped ensure that the team was aligned with company goals and objectives."
             ],
-            "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL"]
+            "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL", "TDD"]
         },
         {
             "title": "<strong>Teaching and Mentorship</strong> (From 2020)",

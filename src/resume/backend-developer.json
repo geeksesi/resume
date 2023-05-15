@@ -4,10 +4,6 @@
     "title": "Backend Developer",
     "contact": [
         {
-            "value": "+989100101543",
-            "link": "tel:+989100101543"
-        },
-        {
             "value": "geeksesi@gmail.com",
             "link": "mailto:geeksesi@gmail.com"
         }
@@ -33,7 +29,8 @@
         "Teamwork and collaboration",
         "Frontend development skills",
         "Teaching and Mentorship",
-        "Efficient learner"
+        "Efficient learner",
+        "Test-Driven Development (TDD)"
     ],
     "projects": [
         {
@@ -63,7 +60,7 @@
                 "Fixed bugs and maintained the old part of the system, which required careful attention to detail and problem-solving skills",
                 "Collaborated with a team of developers to ensure seamless integration of frontend and backend functionality"
             ],
-            "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker"]
+            "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "TDD"]
         },
         {
             "title": "<strong>PHP BackEnd Developer</strong> at <strong>Signalads.com</strong> (2021 - 2022) - Hybrid",
@@ -74,7 +71,7 @@
                 "Led a team effort to refactor the old sms broadcast panel and improve the data structure, synchronization, and processing speed using RabbitMQ and Laravel",
                 "Contributed to the company's agile development process and facilitated communication between the development team and non-technical stakeholders"
             ],
-            "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL"]
+            "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL", "TDD"]
         },
         {
             "title": "<strong>Teaching and Mentorship</strong> (From 2020)",
