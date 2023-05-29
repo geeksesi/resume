@@ -151,6 +151,7 @@ export const query = graphql`
                 title
                 url
                 thumbnail
+                achievements
             }
             about
             experiences {

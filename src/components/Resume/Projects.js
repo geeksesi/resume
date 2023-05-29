@@ -26,6 +26,15 @@ const Projects = ({ projects }) => (
                                 </div>
                             </div>
                         </a>
+                        <ul className="list-disc pl-7">
+                            {item.achievements.map((achievement) => {
+                                return (
+                                    <li className="list-item title-font font-medium text-sm text-gray-900">
+                                        {achievement}
+                                    </li>
+                                );
+                            })}
+                        </ul>
                     </li>
                 ))}
             </ul>
