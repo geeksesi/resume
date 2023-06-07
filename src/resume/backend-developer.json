@@ -36,17 +36,27 @@
         {
             "title": "CodeReviewPals.com",
             "url": "https://github.com/CodeReviewPals/code-review-pals/",
-            "thumbnail": "CodeReviewPals"
+            "thumbnail": "CodeReviewPals",
+            "stack": ["PHP", "MySql", "React", "Inertia"],
+            "achievements": [
+                "+200 software developer community on Discord",
+                "+7 contributor on GitHub",
+                "simple and Strong software code structure"
+            ]
         },
         {
             "title": "Guess Emoji Telegram Game",
             "url": "https://github.com/geeksesi/guess_emoji_telegram_bot",
-            "thumbnail": "GuessEmoji"
+            "thumbnail": "GuessEmoji",
+            "stack": ["PHP", "MySql"],
+            "achievements": ["+2,000 Player on Telegram", "8 Videos with +2,000 view and +150H watch time"]
         },
         {
             "title": "My Resume",
             "url": "https://github.com/geeksesi/resume",
-            "thumbnail": "Resume"
+            "thumbnail": "Resume",
+            "stack": ["GraphQL", "GatsbyJs", "React", "TailWind"],
+            "achievements": []
         }
     ],
     "about": "I am an experienced PHP backend developer with a strong background in developing web applications. I have a track record of delivering high-quality projects for clients in various industries. In addition to my technical skills, I also have a passion for mentoring junior developers and enjoy working as part of a team.",
@@ -54,43 +64,48 @@
         {
             "title": "<strong>BackEnd Developer</strong> at <strong>JackWesting.com</strong> (2022 - 2023) - Remote",
             "url": "https://jackwestin.com",
-            "description": "Maintained and developed new features for the Jackwesting.com educational system, a web-based platform for MCAT and CARS courses",
+            "description": "Developed and maintained features for the Jackwestin.com LMS system, a high-demand web-based platform for MCAT and CARS courses.",
             "responsibilities": [
-                "Worked on a system similar to <a href=\"https://ankiweb.net/\">Anki</a> flashcards, which had a large data set with over 100 million records",
-                "Fixed bugs and maintained the old part of the system, which required careful attention to detail and problem-solving skills",
-                "Collaborated with a team of developers to ensure seamless integration of frontend and backend functionality"
+                "Improved payment system with <b>Stripe</b>, develop Affirm and installment ability for students to pay easier.",
+                "Optimized an import functionality to convert Anki Droid Decks to website and increased the limitation to 50,000 card and improved execute time about 200%",
+                "Collaborated with a team of 8 developers to ensure seamless integration of frontend and backend functionality.",
+                "Created <b>Laravel packages</b> and implemented appropriate <b>design patterns</b> such as Strategy, Observer, and Facade to ensure future maintainability of the code.",
+                "Implemented Test-Driven Development (TDD) practices with a code coverage of over 75%, ensuring comprehensive testing and high-quality code.",
+                "Containerized and modernized an older code base by Dockerizing it with multiple services such as Stripe, Minio, Redis, and MySQL, ensuring seamless compatibility across different operating systems."
             ],
-            "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "TDD"]
+            "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "Stripe", "TDD"]
         },
         {
             "title": "<strong>PHP BackEnd Developer</strong> at <strong>Signalads.com</strong> (2021 - 2022) - Hybrid",
             "url": "https://signalads.com/",
-            "description": "Worked as a backend developer for a sms broadcast website and other products including a dental clinic website and CRM, as well as an IoT system for fruit transportation",
+            "description": "Developed and maintained various web applications for Signalads.com, including a dental clinic website, a CRM, and an IoT system for fruit transportation. Improved and streamlined a complex SMS broadcast software, managing over 500,000 daily requests, by enhancing the code and ensuring smooth performance and scalability.",
             "responsibilities": [
-                "Used PHP and Laravel to develop and maintain the company's web applications Learned and implemented GraphQL to optimize the large dataset",
-                "Led a team effort to refactor the old sms broadcast panel and improve the data structure, synchronization, and processing speed using RabbitMQ and Laravel",
-                "Contributed to the company's agile development process and facilitated communication between the development team and non-technical stakeholders"
+                "Maintained and optimized an existing PHP and GraphQL codebase, addressing performance issues related to large datasets. Implemented <b>caching</b> mechanisms, fixed <b>N+1</b> query problems, and utilized <b>database partitioning</b> techniques to improve performance and manage scalability effectively.",
+                "Collaborated with a <b>4-person team</b> to analyze and refactor a high-demand SMS broadcast software, optimizing workflows and implementing RabbitMQ and Laravel. Utilized <b>design patterns</b> such as the Chain of Responsibility to efficiently manage the workflow and ensured the codebase was well-structured and maintainable.",
+                "Contributed to the company's <b>Agile</b> development process and facilitated communication between the development team and non-technical stakeholders. Helped ensure that the team was aligned with company goals and objectives."
             ],
             "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL", "TDD"]
         },
         {
             "title": "<strong>Teaching and Mentorship</strong> (From 2020)",
             "url": "",
-            "description": "I have a passion for sharing my knowledge with others and enjoy the opportunity to communicate and connect with people. My experience as a mentor began when I helped a colleague learn HTML and CSS, and has since grown to include a variety of teaching and mentorship roles.",
+            "description": "I have a passion for sharing my knowledge with others and enjoy the opportunity to communicate and connect with people. My experience as a mentor began when I helpedCollaborated with a small team to develop a Learning Management System (LMS) platform tailored for developers and online programming courses. a colleague learn HTML and CSS, and has since grown to include a variety of teaching and mentorship roles.",
             "responsibilities": [
-                "Started a <a href=\"https://youtube.com/@geeksesi\">YouTube channel</a> to answer questions and provide guidance to students as a teacher assistant",
-                "Created project-based videos on PHP and mentored individuals through one-on-one coaching",
-                "Led a team of mentees, two of whom now work with PHP and have salaries",
-                "Serving as a mentor for a group of students in the <a href=\"https://quera.ir\">Quera.ir</a> software development bootcamp, teaching design patterns and team work through online videos and group projects"
+                "serving as TA and created a <a href=\"https://youtube.com/@geeksesi\">YouTube channel</a> to answer questions and provide guidance to students and make +20 videos covering topics about: algorithm, flowchart and C++.",
+                "Created <a href=\"https://github.com/geeksesi/guess_emoji_telegram_bot\">project-based videos on PHP</a> and mentored individuals through one-on-one coaching.",
+                "Serving as a mentor for a group of students in the <a href=\"https://quera.ir\">Quera.ir</a> software development bootcamp, teaching design patterns and team work through online videos and group projects.",
+                "Started a <a href=\"https://youtube.com/@ghasemy_javad\">English YouTube channel</a> with +15 videos about PHP, Laravel and opensource projects."
             ]
         },
         {
-            "title": "<strong>Freelance Work</strong> (From 2018 - 2021)",
-            "url": "https://github.com",
-            "description": "As a freelancer, I have worked on a variety of projects ranging from web development to game development and blockchain. I have used technologies such as React, PHP, Laravel, and Node.js in my work and have an active GitHub account with several production projects.",
+            "title": "<strong>Full Stack Freelance Developer</strong> (2018 - 2021)",
+            "url": "https://github.com/geeksesi",
+            "description": "As a full-stack freelance developer, I worked on various projects ranging from web development to game development and blockchain. I have extensive experience in React, PHP, Laravel, and Node.js, and an active GitHub account with several production projects.",
             "responsibilities": [
-                "Created a PHP and Telegram bot-based game called <a href=\"https://github.com/geeksesi/guess_emoji_telegram_bot\"> Guess Emoji Game </a> in which players must guess the meaning of a group of emojis",
-                "Contributed to the <a href=\"https://gitlab.com/payzos\">Payzos</a> project, a blockchain-based payment system for the Tezos network and e-commerce platforms such as WordPress, Magento, OpenCart, and PrestaShop. Used PHP, React, and the Tezos API to create plugins for WordPress, Magento, OpenCart, and PrestaShop using PHP and HTML."
+                "Collaborated with the Iraq product team to provide better logistics and payment solutions for their e-commerce platform, <a href='https://emall.market'>Emall.market</a>",
+                "Led a team of developers for the <a href='https://gitlab.com/payzos'>Payzos</a> project, a blockchain-based payment system for the Tezos network and e-commerce platforms such as WordPress, Magento, OpenCart, and PrestaShop. Contributed to the development of PHP and React plugins for these platforms, using the Tezos API to enable seamless blockchain transactions",
+                "Make wordpress websites and custom wordpress Plugins and themes.",
+                "Collaborated with a small team to develop a Learning Management System (LMS) platform tailored for developers and online programming courses."
             ]
         }
     ]
