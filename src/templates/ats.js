@@ -48,6 +48,7 @@ export const query = graphql`
                 url
                 thumbnail
                 stack
+                description
             }
             about
             experiences {

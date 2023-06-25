@@ -8,8 +8,8 @@ export default ({ items, title }) => {
     return (
         <View style={styles.section}>
             <Text style={styles.subTitle}>{title}</Text>
-            {items.map((skill) => (
-                <Text style={styles.text}>{skill}</Text>
+            {items.map((item) => (
+                <Text style={styles.text}>{item}</Text>
             ))}
         </View>
     );

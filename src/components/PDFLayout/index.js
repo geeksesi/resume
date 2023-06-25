@@ -6,6 +6,7 @@ import Summary from "./Components/Summary";
 import Experience from "./Components/Experience";
 import Contact from "./Components/Contact";
 import SideBarItems from "./Components/SideBarItems";
+import Projects from "./Components/Projects";
 
 export default ({ resume }) => {
     const styles = style;
@@ -26,12 +27,6 @@ export default ({ resume }) => {
                             <Experience experience={experience} />
                         ))}
                     </View>
-
-                    <View style={styles.section}>
-                        <Text style={styles.subTitle}>Open Source Projects</Text>
-                        <Text style={styles.text}>- Project 1: Description of the project.</Text>
-                        <Text style={styles.text}>- Project 2: Description of the project.</Text>
-                    </View>
                 </View>
 
                 <View style={styles.rightColumn}>
@@ -39,6 +34,7 @@ export default ({ resume }) => {
 
                     <Contact items={[...resume.contact, ...resume.social]} />
                     <SideBarItems items={resume.languages} title="Languages" />
+                    <Projects items={resume.projects} />
                     <SideBarItems items={resume.educations} title="Education" />
                 </View>
             </Page>
