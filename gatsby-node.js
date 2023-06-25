@@ -17,5 +17,12 @@ exports.createPages = async ({ graphql, actions }) => {
                 slug: node.name,
             },
         });
+        actions.createPage({
+            path: `ats/${node.name}`,
+            component: require.resolve("./src/templates/ats.js"),
+            context: {
+                slug: `${node.name}`,
+            },
+        });
     });
 };
