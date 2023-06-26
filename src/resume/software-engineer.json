@@ -4,8 +4,14 @@
     "title": "Software Engineer",
     "contact": [
         {
-            "value": "geeksesi@gmail.com",
+            "name": "email",
+            "title": "geeksesi@gmail.com",
             "link": "mailto:geeksesi@gmail.com"
+        },
+        {
+            "name": "phone",
+            "title": "+989100101543",
+            "link": "tel:+989100101543"
         }
     ],
     "social": [
@@ -45,26 +51,19 @@
             "title": "CodeReviewPals.com",
             "url": "https://github.com/CodeReviewPals/code-review-pals/",
             "thumbnail": "CodeReviewPals",
-            "stack": ["PHP", "MySql", "React", "Inertia"],
-            "achievements": [
-                "+200 software developer community on Discord",
-                "+7 contributor on GitHub",
-                "simple and Strong software code structure"
-            ]
+            "stack": ["PHP", "MySql", "React", "Inertia"]
         },
         {
             "title": "Guess Emoji Telegram Game",
             "url": "https://github.com/geeksesi/guess_emoji_telegram_bot",
             "thumbnail": "GuessEmoji",
-            "stack": ["PHP", "MySql"],
-            "achievements": ["+2,000 Player on Telegram", "8 Videos with +2,000 view and +150H watch time"]
+            "stack": ["PHP", "MySql"]
         },
         {
             "title": "My Resume",
             "url": "https://github.com/geeksesi/resume",
             "thumbnail": "Resume",
-            "stack": ["GraphQL", "GatsbyJs", "React", "TailWind"],
-            "achievements": []
+            "stack": ["GraphQL", "GatsbyJs", "React", "TailWind"]
         }
     ],
     "about": "As a software engineer with expertise in <b>PHP backend development</b>, I am enthusiastic about exploring new technologies. I am an active contributor to open-source projects and enjoy collaborating with fellow developers. My technical skills, combined with my ability to learn quickly and tackle complex problems, make me a valuable <b>team member</b>. I excel in team environments and have a proven history of delivering high-quality projects across various industries. <br/> As a mentor, I am passionate about guiding and supporting junior developers, helping them achieve their goals and grow in their careers",

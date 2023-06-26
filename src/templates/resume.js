@@ -43,7 +43,7 @@ export default (data) => {
                                 <ul className="dot-margin list-disc list-inside">
                                     {resume.contact.map((item, index) => (
                                         <li className="py-1 px-5" key={index}>
-                                            <a href={item.link}>{item.value}</a>
+                                            <a href={item.link}>{item.title}</a>
                                         </li>
                                     ))}
 
@@ -139,19 +139,20 @@ export const query = graphql`
             name
             title
             contact {
-                value
                 link
+                name
+                title
             }
             social {
-                name
                 link
+                name
+                title
             }
             skills
             projects {
                 title
                 url
                 thumbnail
-                achievements
             }
             about
             experiences {
