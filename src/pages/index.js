@@ -3,7 +3,7 @@ import { Link, navigate } from "gatsby";
 
 export default () => {
     if (typeof window !== `undefined`) {
-        navigate("/software-engineer");
+        navigate("/backend-developer");
     }
     return <Link to="/backend-developer/"></Link>;
 };
