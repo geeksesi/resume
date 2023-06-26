@@ -7,7 +7,7 @@ export default ({ items }) => {
 
     return (
         <View style={styles.section}>
-            <Text style={styles.subTitle}>Open-Source Projects</Text>
+            <Text style={styles.subTitle}>OpenSource Projects</Text>
             {items.map((item) => (
                 <>
                     <Link style={styles.text} src={item.url}>

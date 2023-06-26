@@ -15,16 +15,21 @@ export default ({ experience }) => {
                 ) : (
                     <Text>{experience.company}</Text>
                 )}
-                <Text style={styles.subText}> - {experience.time}</Text>
+                <Text style={styles.subText}>
+                    {" "}
+                    - {experience.time} - {experience.type}
+                </Text>
             </Text>
 
             {experience.technologies && (
                 <Text style={styles.text}>Technologies Used: {experience.technologies.join(", ")}</Text>
             )}
             <Text style={styles.text}>{experience.description}</Text>
-            {experience.responsibilities.map((text) => (
-                <Html style={styles.text}>{`- ${text}`}</Html>
-            ))}
+            <View style={styles.text}>
+                {experience.responsibilities.map((text, index) => (
+                    <Html style={styles.text} key={index}>{`- ${text}`}</Html>
+                ))}
+            </View>
         </View>
     );
 };

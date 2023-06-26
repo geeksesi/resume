@@ -1,10 +1,22 @@
 import { StyleSheet, Font } from "@react-pdf/renderer";
-import IRANSansWeb from "../../assets/IRANSansWeb.ttf";
+import Belanosima from "../../assets/Belanosima.ttf";
+import Rubik from "../../assets/Rubik.ttf";
+import OpenSans from "../../assets/OpenSans.ttf";
 
 Font.register({
-    family: "IRANSansWeb",
+    family: "Belanosima",
     format: "truetype",
-    src: IRANSansWeb,
+    src: Belanosima,
+});
+Font.register({
+    family: "Rubik",
+    format: "truetype",
+    src: Rubik,
+});
+Font.register({
+    family: "OpenSans",
+    format: "truetype",
+    src: OpenSans,
 });
 
 export default StyleSheet.create({
@@ -12,7 +24,6 @@ export default StyleSheet.create({
         flexDirection: "row",
         backgroundColor: "#FFFFFF",
         padding: 30,
-        fontFamily: "IRANSansWeb",
     },
     section: {
         marginBottom: 10,
@@ -30,30 +41,37 @@ export default StyleSheet.create({
         fontSize: 20,
         fontWeight: "bold",
         marginBottom: 0,
+        fontFamily: "Belanosima",
     },
     role: {
         fontSize: 13,
         fontWeight: "bold",
+        fontFamily: "Rubik",
     },
     title: {
         fontSize: 15,
         fontWeight: "bold",
         marginBottom: 5,
+        fontFamily: "Rubik",
     },
     subTitle: {
         fontSize: 12,
         fontWeight: "bold",
         marginBottom: 3,
+        fontFamily: "Rubik",
     },
     roleTitle: {
         fontSize: 11,
         fontWeight: "extrabold",
         marginBottom: 3,
+        fontFamily: "Rubik",
     },
     text: {
         fontSize: 9,
         marginBottom: 3,
         textAlign: "justify",
+        fontFamily: "OpenSans",
+        lineHeight: "1.7",
     },
     socialTitleText: {
         fontSize: 9,
