@@ -5,7 +5,7 @@ export default () => {
     if (typeof window !== `undefined`) {
         navigate("/software-engineer");
     }
-    return <Link to="/software-engineer/"></Link>;
+    return <Link to="/backend-developer/"></Link>;
 };
 
 export const Head = () => <title>Resume Mohammad Javad Ghasemy</title>;
