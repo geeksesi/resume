@@ -1,7 +1,7 @@
 {
-    "slug": "backend-developer",
+    "slug": "fullstack-developer",
     "name": "Mohammad Javad Ghasemy",
-    "title": "Backend Developer",
+    "title": "fullstack Developer",
     "contact": [
         {
             "name": "email",
@@ -72,7 +72,7 @@
     ],
     "languages": ["Persian (Native)", "English (Intermediate)"],
     "educations": ["Bachelor's degree in Computer Engineering"],
-    "about": "Passionate software developer with a focus on backend technologies. Dedicated to building impactful software solutions. Committed to continuous learning and sharing knowledge.",
+    "about": "Passionate software developer with a focus on web technologies. Dedicated to building impactful software solutions. Committed to continuous learning and sharing knowledge.",
     "experiences": [
         {
             "title": "<strong>Back End Developer</strong> at <strong>JackWesting.com</strong> (May 2022 - May 2023) - Remote",
@@ -90,8 +90,8 @@
             "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "Stripe", "TDD"]
         },
         {
-            "title": "<strong>PHP Back End Developer</strong> at <strong>Signalads.com</strong> (Oct 2021 - May 2022) - Hybrid",
-            "role": "PHP Back End Developer",
+            "title": "<strong>Developer</strong> at <strong>Signalads.com</strong> (Oct 2021 - May 2022) - Hybrid",
+            "role": "Developer",
             "company": "Signalads",
             "time": "Oct 2021 - May 2022",
             "type": "Hybrid",
@@ -102,7 +102,7 @@
                 "Maintained and optimized GraphQL codebase, improving database queries, resolving N+1 issues, and ensuring comprehensive testing.",
                 "Contributed to the company's <b>Agile</b> development process and facilitated communication between the development team and non-technical stakeholders. Helped ensure that the team was aligned with company goals and objectives."
             ],
-            "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL", "TDD"]
+            "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL", "TDD", "VueJs"]
         },
         {
             "title": "<strong>Teaching and Mentorship</strong> (From 2020)",
@@ -131,7 +131,7 @@
                 "Collaborated with the Iraq product team to provide better logistics and payment solutions for their e-commerce platform, <a href='https://emall.market'>Emall.market</a>",
                 "Led a team of developers for the <a href='https://gitlab.com/payzos'>Payzos</a> project, a blockchain-based payment system for the Tezos network and e-commerce platforms such as WordPress, Magento, OpenCart, and PrestaShop. Contributed to the development of PHP and React plugins for these platforms, using the Tezos API to enable seamless blockchain transactions"
             ],
-            "technologies": ["PHP", "Laravel", "Wordpress", "ReactJs", "Docker"]
+            "technologies": ["PHP", "Laravel", "Wordpress", "ReactJS", "Docker", "GIT"]
         }
     ]
 }
