@@ -78,8 +78,10 @@ export default StyleSheet.create({
         marginBottom: 3,
         textAlign: "justify",
         textTransform: "capitalize",
+        lineHeight: "1.7",
     },
     subText: {
         fontSize: 8,
+        lineHeight: "1.5",
     },
 });
