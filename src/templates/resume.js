@@ -7,7 +7,6 @@ import linkedIn from "../assets/images/linkedin.png";
 import youtube from "../assets/images/youtube.png";
 import { graphql } from "gatsby";
 import Projects from "../components/Resume/Projects";
-import { fixed } from "gatsby-plugin-sharp";
 import PDFLayout from "../components/PDFLayout/index";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 
@@ -18,17 +17,20 @@ export default (data) => {
         youtube: youtube,
     };
     const resume = data.data.resumeJson;
+    const fileName = `${resume.name.replace(" ", "-")}-${resume.slug}.pdf`;
     return (
         <>
-            <div className="absolute left-2/3 top-5">
-                <PDFDownloadLink
-                    className="p-2 bg-red-500 text-white font-bold no-underline rounded-md"
-                    document={<PDFLayout resume={resume} />}
-                    fileName={`${resume.name.replace(" ", "-")}-${resume.slug}.pdf`}
-                >
-                    {({ blob, url, loading, error }) => (loading ? "Loading document..." : "Download PDF!")}
-                </PDFDownloadLink>
-            </div>
+            {typeof window !== `undefined` && (
+                <div className="absolute left-2/3 top-5">
+                    <PDFDownloadLink
+                        className="p-2 bg-red-500 text-white font-bold no-underline rounded-md"
+                        document={<PDFLayout resume={resume} />}
+                        fileName={fileName}
+                    >
+                        {({ blob, url, loading, error }) => (loading ? "Loading document..." : "Download PDF!")}
+                    </PDFDownloadLink>
+                </div>
+            )}
             <Layout className="block font-sans">
                 <header>
                     <div>
