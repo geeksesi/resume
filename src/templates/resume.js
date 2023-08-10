@@ -7,6 +7,9 @@ import linkedIn from "../assets/images/linkedin.png";
 import youtube from "../assets/images/youtube.png";
 import { graphql } from "gatsby";
 import Projects from "../components/Resume/Projects";
+import { fixed } from "gatsby-plugin-sharp";
+import PDFLayout from "../components/PDFLayout/index";
+import { PDFDownloadLink } from "@react-pdf/renderer";
 
 export default (data) => {
     const socials = {
@@ -17,6 +20,15 @@ export default (data) => {
     const resume = data.data.resumeJson;
     return (
         <>
+            <div className="absolute left-2/3 top-5">
+                <PDFDownloadLink
+                    className="p-2 bg-red-500 text-white font-bold no-underline rounded-md"
+                    document={<PDFLayout resume={resume} />}
+                    fileName={`${resume.name.replace(" ", "-")}-${resume.slug}.pdf`}
+                >
+                    {({ blob, url, loading, error }) => (loading ? "Loading document..." : "Download PDF!")}
+                </PDFDownloadLink>
+            </div>
             <Layout className="block font-sans">
                 <header>
                     <div>
@@ -144,24 +156,32 @@ export const query = graphql`
                 title
             }
             social {
-                link
-                name
                 title
+                name
+                link
             }
             skills
             projects {
                 title
                 url
                 thumbnail
+                stack
+                description
             }
             about
             experiences {
                 title
+                role
+                company
+                time
+                type
                 url
                 description
                 responsibilities
                 technologies
             }
+            languages
+            educations
         }
     }
 `;
