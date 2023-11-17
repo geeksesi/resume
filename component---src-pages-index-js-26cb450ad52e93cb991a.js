@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkresume_mohammad_javad_ghasemy=self.webpackChunkresume_mohammad_javad_ghasemy||[]).push([[678],{6558:function(e,a,n){n.r(a),n.d(a,{Head:function(){return s}});var t=n(7294),m=n(1883);a.default=()=>("undefined"!=typeof window&&(0,m.navigate)("/software-engineer"),t.createElement(m.Link,{to:"/software-engineer/"}));const s=()=>t.createElement("title",null,"Resume Mohammad Javad Ghasemy")}}]);
-//# sourceMappingURL=component---src-pages-index-js-26cb450ad52e93cb991a.js.map
