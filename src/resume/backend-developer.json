@@ -1,137 +1,99 @@
 {
     "slug": "backend-developer",
-    "name": "Mohammad Javad Ghasemy",
+    "name": "Mojtaba Akbarpour Khomami",
     "title": "Backend Developer",
     "contact": [
         {
             "name": "email",
-            "title": "geeksesi@gmail.com",
-            "link": "mailto:geeksesi@gmail.com"
+            "value": "mjeelm@gmail.com",
+            "link": "mailto:mjeelm@gmail.com"
         },
         {
             "name": "phone",
-            "title": "+4407825039391",
-            "link": "tel:+4407825039391"
+            "value": "+989119351172",
+            "link": "tel:+989119351172"
+        },
+        {
+            "name": "website",
+            "value": "returntrue.ir",
+            "link": "https://returntrue.ir"
         }
     ],
     "social": [
         {
             "name": "github",
-            "link": "https://github.com/geeksesi/",
-            "title": "Geeksesi"
+            "link": "https://github.com/mj999666/",
+            "title": "mj999666"
         },
         {
             "name": "youtube",
-            "link": "https://www.youtube.com/@ghasemy_javad",
-            "title": "English Channel"
+            "link": "https://www.youtube.com/@returntrue360",
+            "title": "Youtube Channel"
         },
         {
             "name": "linkedin",
-            "link": "https://www.linkedin.com/in/ghasemy-javad/",
-            "title": "Ghasemy_javad"
-        },
-        {
-            "name": "youtube",
-            "link": "https://youtube.com/@geeksesi",
-            "title": "Persian Channel"
+            "link": "https://www.linkedin.com/in/mojtabaakbarpour/",
+            "title": "mojtabaakbarpour"
         }
     ],
     "skills": [
-        "Proficiency in PHP and OOP",
-        "Database design and SQL",
-        "Problem-solving and analytical",
-        "Teamwork and collaboration",
-        "Frontend development skills",
+        "Proficient in PHP programming language",
+        "Skilled in Laravel framework",
+        "Familiar with database management systems, including MySQL",
+        "Experience in front-end development, including HTML, CSS, and JavaScript",
+        "Knowledgeable in version control systems, including Git",
+        "Familiar with agile methodologies, including Scrum",
         "Teaching and Mentorship",
-        "Continuous learner",
-        "Test-Driven Development (TDD)",
-        "Proficient in design patterns"
+        "Efficient learner"
     ],
     "projects": [
         {
-            "title": "CodeReviewPals.com",
-            "url": "https://github.com/CodeReviewPals/code-review-pals/",
+            "title": "Banan Bakery",
+            "url": "https://app.bananbakery.com/",
             "thumbnail": "CodeReviewPals",
             "stack": ["PHP", "MySql", "ReactJS", "CI/CD"],
-            "description": "a volunteer community, so you review junior coders' code and guide them "
+            "description": "Developed an e-commerce website for a bakery using Laravel framework. Implemented features such as product management, categories, discounts, orders and pre-orders, and shipping costs."
         },
         {
-            "title": "Guess Emoji Telegram Game",
-            "url": "https://github.com/geeksesi/guess_emoji_telegram_bot",
+            "title": "Rahnama Fish",
+            "url": "https://app.rahnamafish.ir/",
             "thumbnail": "GuessEmoji",
             "stack": ["PHP", "MySql", "CI/CD"],
-            "description": "Project based free PHP Tutorial (Youtube)"
+            "description": "Developed an e-commerce website for a seafood store using Laravel framework. Implemented features such as product management, categories, discounts, orders and pre-orders, and shipping costs."
         },
         {
-            "title": "My Resume",
-            "url": "https://github.com/geeksesi/resume",
+            "title": "Ninilos",
+            "url": "https://ninilos.com/",
             "thumbnail": "Resume",
-            "stack": ["GraphQL", "GatsbyJs", "ReactJS", "TailwindCSS"],
-            "description": ""
+            "stack": ["PHP", "MySql", "CI/CD"],
+            "description": "Developed an e-commerce website for a children's clothing store using Laravel framework. Implemented features such as product management, categories, discounts, orders and pre-orders, and shipping costs."
         }
     ],
-    "languages": ["Persian (Native)", "English (Intermediate)"],
-    "educations": ["Bachelor's degree in Computer Engineering"],
-    "about": "Passionate software developer with a focus on backend technologies. Dedicated to building impactful software solutions. Committed to continuous learning and sharing knowledge.",
+    "otherProjects": "Other digital solutions for well-known brands: Worked on various projects for well-known brands, including Razeghi (<a href=\"https://webapp.razeghigroup.com/\" target=\"_new\">https://webapp.razeghigroup.com/</a>) is an app for ordering food from the Razeghi restaurant, Narenj (<a href=\"https://webapp.narenj.me/\" target=\"_new\">https://webapp.narenj.me/</a>) is an app designed as a marketplace for stores to showcase their products, and Dryvity (<a href=\"https://dryvity.ir/\" target=\"_new\">https://dryvity.ir/</a>) is a website for purchasing products such as pistachios, dried fruits, and more. Developed backend solutions using Laravel framework.",
+
+    "about": "I am a skilled PHP developer with expertise in Laravel framework. I have worked on several projects where I was responsible for the backend development and database management. I have experience in developing solutions for e-commerce, including product management, categories, discounts, orders, pre-orders, and shipping costs. In addition to my technical skills, I also have a passion for mentoring junior developers and enjoy working as part of a team.",
+
     "experiences": [
         {
-            "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2022 - May 2023) - Remote",
-            "role": "Back End Developer",
-            "company": "JackWestin",
-            "time": "May 2022 - May 2023",
-            "type": "Remote",
-            "url": "https://jackwestin.com",
-            "description": "",
+            "title": "<strong>Full Stack Developer</strong> at <strong>Shahrara.net</strong> (2015 - Present) - Inside",
+            "role": "Full Stack Developer",
+            "company": "Shahrara",
+            "time": "(2015 - Present)",
+            "type": "Inside",
+            "url": "https://shahrara.net",
+            "description": "Shahrara Company is an active company in creating smart and creative solutions in the digital world. Using the latest technologies and its more than ten years of experience, the company aims to help various brands establish their presence by producing websites and apps.",
             "responsibilities": [
-                "Implemented features inspired by popular software like Anki, enhancing user experience.",
-                "Optimized database queries, refactored code, and ensured high-quality testing.",
-                "Dockerized Laravel application, accelerated local environment setup, and maintained Stripe payment system."
+                "Developed and maintained e-commerce websites using Laravel framework",
+                "Created and managed databases using MySQL",
+                "Collaborated with front-end developers to ensure seamless integration between front-end and back-end systems",
+                "Developed APIs for mobile applications",
+                "Implemented features such as product management, categories, discounts, orders and pre-orders, and shipping costs",
+                "Created and maintained technical documentation"
             ],
-            "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "Stripe", "TDD"]
-        },
-        {
-            "title": "<strong>PHP Back End Developer</strong> at <strong>Signalads.com</strong> (Oct 2021 - May 2022) - Hybrid",
-            "role": "PHP Back End Developer",
-            "company": "Signalads",
-            "time": "Oct 2021 - May 2022",
-            "type": "Hybrid",
-            "url": "https://signalads.com/",
-            "description": "",
-            "responsibilities": [
-                "Refactored and optimized SMS broker system, analyzing structure and database design. Utilized RabbitMQ and Laravel Queue for a high-performance system.",
-                "Maintained and optimized GraphQL codebase, improving database queries, resolving N+1 issues, and ensuring comprehensive testing.",
-                "Contributed to the company's <b>Agile</b> development process and facilitated communication between the development team and non-technical stakeholders. Helped ensure that the team was aligned with company goals and objectives."
-            ],
-            "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL", "TDD"]
-        },
-        {
-            "title": "<strong>Teaching and Mentorship</strong> (From 2020)",
-            "role": "Teaching and Mentorship",
-            "company": "Self employed",
-            "time": "From 2020",
-            "type": "Remote",
-            "url": "",
-            "description": "I have a passion for sharing my knowledge with others and enjoy the opportunity to communicate and connect with people.",
-            "responsibilities": [
-                "serving as TA and created a <a href=\"https://youtube.com/@geeksesi\">YouTube channel</a> to answer questions and provide guidance to students and make +20 videos covering topics about: algorithm, flowchart and C++.",
-                "Created <a href=\"https://github.com/geeksesi/guess_emoji_telegram_bot\">project-based videos on PHP</a> and mentored individuals through one-on-one coaching.",
-                "Serving as a mentor for a group of students in the <a href=\"https://quera.ir\">Quera.ir</a> software development bootcamp, teaching design patterns and team work through online videos and group projects.",
-                "Started a <a href=\"https://youtube.com/@ghasemy_javad\">English YouTube channel</a> with +15 videos about PHP, Laravel and opensource projects."
-            ]
-        },
-        {
-            "title": "<strong>Full Stack Freelance Developer</strong> (2018 - 2021)",
-            "role": "Full Stack Freelance Developer",
-            "company": "Self employed",
-            "time": "2018 - 2021",
-            "type": "Remote & hybrid",
-            "url": "https://github.com/geeksesi",
-            "description": " worked on various projects ranging from web development to game development and blockchain.",
-            "responsibilities": [
-                "Collaborated with the Iraq product team to provide better logistics and payment solutions for their e-commerce platform, <a href='https://emall.market'>Emall.market</a>",
-                "Led a team of developers for the <a href='https://gitlab.com/payzos'>Payzos</a> project, a blockchain-based payment system for the Tezos network and e-commerce platforms such as WordPress, Magento, OpenCart, and PrestaShop. Contributed to the development of PHP and React plugins for these platforms, using the Tezos API to enable seamless blockchain transactions"
-            ],
-            "technologies": ["PHP", "Laravel", "Wordpress", "ReactJs", "Docker"]
+            "technologies": ["PHP", "Laravel", "MySQL", "HTML", "CSS", "JavaScript", "Reactjs"]
         }
-    ]
+    ],
+
+    "educations": ["Master's degree in Computer Science"],
+    "languages": ["Persian (Native)", "English (Intermediate)"]
 }

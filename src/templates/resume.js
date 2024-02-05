@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout";
 import "../styles/index.css";
-import avatar from "../assets/images/me.jpg";
+import avatar from "../assets/images/me.jpeg";
 import github from "../assets/images/github.png";
 import linkedIn from "../assets/images/linkedin.png";
 import youtube from "../assets/images/youtube.png";
@@ -57,7 +57,7 @@ export default (data) => {
                                 <ul className="dot-margin list-disc list-inside">
                                     {resume.contact.map((item, index) => (
                                         <li className="py-1 px-5" key={index}>
-                                            <a href={item.link}>{item.title}</a>
+                                            <a href={item.link}>{item.name}:{item.value}</a>
                                         </li>
                                     ))}
 
@@ -143,7 +143,7 @@ export default (data) => {
     );
 };
 
-export const Head = () => <title>Resume Mohammad Javad Ghasemy</title>;
+export const Head = () => <title>Resume Mojtaba Akbarpour Khomami</title>;
 
 export const query = graphql`
     query ($slug: String!) {
@@ -155,7 +155,7 @@ export const query = graphql`
             contact {
                 link
                 name
-                title
+                value
             }
             social {
                 title

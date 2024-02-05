@@ -23,7 +23,7 @@ export default (data) => {
     );
 };
 
-export const Head = () => <title>Resume Mohammad Javad Ghasemy</title>;
+export const Head = () => <title>Resume Mojtaba Akbarpour Khomami</title>;
 
 export const query = graphql`
     query ($slug: String!) {
@@ -35,7 +35,7 @@ export const query = graphql`
             contact {
                 link
                 name
-                title
+                value
             }
             social {
                 title
