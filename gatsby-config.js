@@ -6,6 +6,7 @@ module.exports = {
         title: `Resume Mohammad Javad Ghasemy`,
         siteUrl: `https://resume.geeksesi.ir`,
     },
+    pathPrefix: "/resume",
     plugins: [
         "gatsby-plugin-postcss",
         // "gatsby-plugin-google-gtag",
