@@ -83,6 +83,30 @@ export default (data) => {
                                 </ul>
                             </div>
                         </div>
+                        <div className="px-5">
+                            <div className="mx-auto border-l-2 border-black border-opacity-70 my-7">
+                                <h3 className="p-4 text-2xl">Languages</h3>
+                                <ul className="dot-margin list-disc list-inside text-sm align-top font-sans">
+                                    {resume.languages.map((item, index) => (
+                                        <li key={index} className="py-1 px-5">
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="px-5">
+                            <div className="mx-auto border-l-2 border-black border-opacity-70 my-7">
+                                <h3 className="p-4 text-2xl">Education</h3>
+                                <ul className="dot-margin list-disc list-inside text-sm align-top font-sans">
+                                    {resume.educations.map((item, index) => (
+                                        <li key={index} className="py-1 px-5">
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
 
                         {/*<Projects projects={resume.projects} />*/}
                     </div>
