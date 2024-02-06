@@ -23,17 +23,20 @@
         {
             "name": "github",
             "link": "https://github.com/mj999666/",
-            "title": "mj999666"
+            "title": "mj999666",
+            "value": "mj999666"
         },
         {
             "name": "youtube",
             "link": "https://www.youtube.com/@returntrue360",
-            "title": "Youtube Channel"
+            "title": "Youtube Channel",
+            "value": "Youtube Channel"
         },
         {
             "name": "linkedin",
             "link": "https://www.linkedin.com/in/mojtabaakbarpour/",
-            "title": "mojtabaakbarpour"
+            "title": "mojtabaakbarpour",
+            "value": "mojtabaakbarpour"
         }
     ],
     "skills": [
@@ -48,6 +51,8 @@
     ],
     "projects": [
         {
+            "startAt": "2020-04",
+            "endAt": "2020-10",
             "title": "Banan Bakery",
             "url": "https://app.bananbakery.com/",
             "thumbnail": "CodeReviewPals",
@@ -55,6 +60,8 @@
             "description": "Developed an e-commerce website for a bakery using Laravel framework. Implemented features such as product management, categories, discounts, orders and pre-orders, and shipping costs."
         },
         {
+            "startAt": "2022-12",
+            "endAt": "2023-04",
             "title": "Rahnama Fish",
             "url": "https://app.rahnamafish.ir/",
             "thumbnail": "GuessEmoji",
@@ -62,6 +69,8 @@
             "description": "Developed an e-commerce website for a seafood store using Laravel framework. Implemented features such as product management, categories, discounts, orders and pre-orders, and shipping costs."
         },
         {
+            "startAt": "2020-11",
+            "endAt": "2021-04",
             "title": "Ninilos",
             "url": "https://ninilos.com/",
             "thumbnail": "Resume",
@@ -70,18 +79,18 @@
         }
     ],
     "otherProjects": "Other digital solutions for well-known brands: Worked on various projects for well-known brands, including Razeghi (<a href=\"https://webapp.razeghigroup.com/\" target=\"_new\">https://webapp.razeghigroup.com/</a>) is an app for ordering food from the Razeghi restaurant, Narenj (<a href=\"https://webapp.narenj.me/\" target=\"_new\">https://webapp.narenj.me/</a>) is an app designed as a marketplace for stores to showcase their products, and Dryvity (<a href=\"https://dryvity.ir/\" target=\"_new\">https://dryvity.ir/</a>) is a website for purchasing products such as pistachios, dried fruits, and more. Developed backend solutions using Laravel framework.",
-
+    "simpleOtherProjects": "Contributed to brands with digital solutions: Projects include Razeghi (https://webapp.razeghigroup.com) for food orders, Narenj (https://webapp.narenj.me) as a store marketplace app, and Dryvity (https://dryvity.ir) for purchasing products. Used Laravel for backend development.",
     "about": "I am a skilled PHP developer with expertise in Laravel framework. I have worked on several projects where I was responsible for the backend development and database management. I have experience in developing solutions for e-commerce, including product management, categories, discounts, orders, pre-orders, and shipping costs. In addition to my technical skills, I also have a passion for mentoring junior developers and enjoy working as part of a team.",
 
     "experiences": [
         {
-            "title": "<strong>Full Stack Developer</strong> at <strong>Shahrara.net</strong> (2015 - Present) - Inside",
+            "title": "<strong>Full Stack Developer</strong> at <strong>Shahrara.net</strong> (2015 - Present) - onsite",
             "role": "Full Stack Developer",
             "company": "Shahrara",
             "time": "(2015 - Present)",
-            "type": "Inside",
+            "type": "onsite",
             "url": "https://shahrara.net",
-            "description": "Shahrara Company is an active company in creating smart and creative solutions in the digital world. Using the latest technologies and its more than ten years of experience, the company aims to help various brands establish their presence by producing websites and apps.",
+            "description": "Shahrara Company is an active company in creating smart and creative solutions in the digital world.",
             "responsibilities": [
                 "Developed and maintained e-commerce websites using Laravel framework",
                 "Created and managed databases using MySQL",
@@ -94,6 +103,41 @@
         }
     ],
 
-    "educations": ["Master's degree in Computer Science"],
-    "languages": ["Persian (Native)", "English (Intermediate)"]
+    "educations": [
+        "Master's degree in Computer Science",
+        "TASK-ORIENTED BOOTCAMP IN SOFTWARE ENGINEERING WITH LARAVEL",
+        "Project-Oriented Course In Web Development With Php",
+        "Professional Project-Oriented course in backend development with LARAVEL"
+    ],
+    "languages": ["Persian (Native)", "English (Intermediate)"],
+    "workExperience" : [
+        {
+            "workType": "onsite",
+            "workAs" : "Fullstack Developer",
+            "nameOfCompany" : "Shahrara" ,
+            "companyLocation" : "Rasht, Gilan, Iran" ,
+            "durationOfEmployment": "(2015 | Present)",
+            "url": "https://shahrara.net",
+            "description": "Shahrara Company is an active company in creating smart and creative solutions in the digital world.",
+            "responsibilities" : [
+                "<strong>PHP mid-level developer (2015-2017)</strong> I joined Shahrara Company as a Mid-Level PHP Developer and, right from the start, focused on enhancing my skills through engaging in new and creative positions alongside various projects.",
+                "<strong>PHP Senior developer (2017-2021)</strong> After advancing my skills, I transitioned to a Senior Developer role, leading the programming team. Alongside, I actively contributed to generating creative solutions for problem-solving.",
+                "<strong>Team leader (2021-Present)</strong> As a team leader, I excel in project planning, task delegation, and performance assessment. With a decade's experience, I lead teams in adhering to development standards, ensuring code quality, and fostering technical and teamwork skills. I am dedicated to enhancing team coordination, improving project productivity, and facilitating software development processes for optimal results."
+            ],
+            "technologies": ["PHP", "Laravel", "MySQL", "HTML", "CSS", "JavaScript", "Reactjs"]
+        },
+        {
+            "workType": "remote",
+            "workAs" : "PHP Developer",
+            "nameOfCompany" : "Castel" ,
+            "companyLocation" : "" ,
+            "durationOfEmployment": "(2023 | 2024)",
+            "url": "",
+            "description": "\"Castel\" is a Telegram-based game that allows players to create and expand their castles, allocate troops, and launch attacks on other castles within the map.",
+            "responsibilities" : [
+                "<strong>PHP developer</strong>"
+            ],
+            "technologies": ["PHP", "Laravel", "MySQL"]
+        }
+    ]
 }

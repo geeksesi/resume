@@ -4,9 +4,11 @@ import Title from "./Components/Title";
 import style from "./style";
 import Summary from "./Components/Summary";
 import Experience from "./Components/Experience";
+import WorkExperience from "./Components/WorkExperience";
 import Contact from "./Components/Contact";
 import SideBarItems from "./Components/SideBarItems";
 import Projects from "./Components/Projects";
+import Projects2 from "./Components/Projects2";
 
 export default ({ resume }) => {
     const styles = style;
@@ -21,11 +23,21 @@ export default ({ resume }) => {
                     <Title name={resume.name} role={resume.title} />
                     <Summary text={resume.about} />
 
-                    <View style={styles.section}>
+                    {/*<View style={styles.section}>
                         <Text style={styles.title}>Experiences</Text>
                         {resume.experiences.map((experience) => (
                             <Experience experience={experience} />
                         ))}
+                    </View>*/}
+
+                    <View style={styles.section}>
+                        <Text style={styles.title}>Experiences</Text>
+                        {resume.workExperience.map((experience) => (
+                            <WorkExperience WorkExperience={experience} />
+                        ))}
+                    </View>
+                    <View style={styles.section}>
+                        <Projects2 items={resume.projects} otherProjects={resume.simpleOtherProjects}/>
                     </View>
                 </View>
 
@@ -34,7 +46,7 @@ export default ({ resume }) => {
 
                     <Contact items={[...resume.contact, ...resume.social]} />
                     <SideBarItems items={resume.languages} title="Languages" />
-                    <Projects items={resume.projects} />
+                    {/*<Projects items={resume.projects} />*/}
                     <SideBarItems items={resume.educations} title="Education" />
                 </View>
             </Page>

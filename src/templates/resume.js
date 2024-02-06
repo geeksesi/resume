@@ -84,7 +84,7 @@ export default (data) => {
                             </div>
                         </div>
 
-                        <Projects projects={resume.projects} />
+                        {/*<Projects projects={resume.projects} />*/}
                     </div>
 
                     <div className="main">
@@ -97,7 +97,39 @@ export default (data) => {
                                 ></p>
                             </div>
                         </div>
+
+
                         <div className="px-10">
+                            <div className="mx-auto border-l-2 border-black border-opacity-70 my-7">
+                                <h3 className="p-4 text-2xl">Work Experience:</h3>
+                                {resume.workExperience.map((item, index) => (
+                                    <article className="py-4" key={index}>
+                                        <ul className="dot-margin list-disc list-inside text-sm align-top font-sans">
+                                            <li className="py-1 px-5">
+                                                <strong>{item.workAs} - {item.workType}</strong>
+                                                <div className="pl-5">
+                                                    <p><a href={item.url} dangerouslySetInnerHTML={{ __html: item.nameOfCompany }}></a>, {item.companyLocation}</p>
+                                                    <p>{item.durationOfEmployment}}</p>
+                                                    <p className="text-justify">{item.description}</p>
+                                                    <h3 className="pt-3 pb-3"><strong>Responsibilities:</strong></h3>
+                                                    <ul className="dot-margin list-disc list-inside text-sm align-top font-sans">
+                                                        {item.responsibilities.map((item, index) => (
+                                                            <li
+                                                                className="py-1 px-5 text-justify"
+                                                                key={index}
+                                                                dangerouslySetInnerHTML={{ __html: item }}
+                                                            ></li>
+                                                        ))}
+                                                    </ul>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </article>
+                                ))}
+                            </div>
+                        </div>
+                        {/*<div className="px-10">
                             <div className="mx-auto border-l-2 border-black border-opacity-70 my-7">
                                 <h3 className="p-4 text-2xl">Experiences</h3>
                                 {resume.experiences.map((item, index) => (
@@ -135,7 +167,32 @@ export default (data) => {
                                     </article>
                                 ))}
                             </div>
+                        </div>*/}
+
+
+                        <div className="px-10">
+                            <div className="mx-auto border-l-2 border-black border-opacity-70 my-7">
+                                <h3 className="p-4 text-2xl">Projects:</h3>
+                                <article className="py-4" >
+                                    <ul className="dot-margin list-disc list-inside text-sm align-top font-sans">
+                                        {resume.projects.map((item, index) => (
+                                            <li className="py-1 px-5" key={index}>
+                                                <a href={item.url} dangerouslySetInnerHTML={{ __html: item.title }}></a> ({item.startAt}|{item.endAt}) (Link: {item.url})
+                                                <div className="pl-5">
+                                                    <strong>Technologies I used:</strong> {(item.stack.join(", "))}
+                                                </div>
+                                                <div className="pl-5">
+                                                    <strong>Description:</strong> {item.description}
+                                                </div>
+                                                <hr />
+                                            </li>
+                                        ))}
+                                    </ul>
+                                    <article className="border-t pt-3 mt-3 pl-5 font-sans" dangerouslySetInnerHTML={{ __html: resume.otherProjects }}></article>
+                                </article>
+                            </div>
                         </div>
+
                     </div>
                 </main>
             </Layout>
@@ -169,6 +226,8 @@ export const query = graphql`
                 thumbnail
                 stack
                 description
+                startAt
+                endAt
             }
             about
             experiences {
@@ -182,6 +241,19 @@ export const query = graphql`
                 responsibilities
                 technologies
             }
+            workExperience{
+                workAs
+                nameOfCompany
+                companyLocation
+                durationOfEmployment
+                url
+                description
+                responsibilities
+                technologies
+                workType
+            }
+            otherProjects
+            simpleOtherProjects
             languages
             educations
         }

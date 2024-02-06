@@ -41,6 +41,7 @@ export const query = graphql`
                 title
                 name
                 link
+                value
             }
             skills
             projects {
@@ -49,6 +50,8 @@ export const query = graphql`
                 thumbnail
                 stack
                 description
+                startAt
+                endAt
             }
             about
             experiences {
@@ -62,6 +65,19 @@ export const query = graphql`
                 responsibilities
                 technologies
             }
+            workExperience{
+                workAs
+                nameOfCompany
+                companyLocation
+                durationOfEmployment
+                url
+                description
+                responsibilities
+                technologies
+                workType
+            }
+            otherProjects
+            simpleOtherProjects
             languages
             educations
         }

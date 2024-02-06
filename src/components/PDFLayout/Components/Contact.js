@@ -10,7 +10,7 @@ export default ({ items }) => {
             <Text style={styles.subTitle}>Contact</Text>
             {items.map((item) => (
                 <Text style={styles.socialTitleText}>
-                    {item.name} : <Link src={item.link}>{item.title}</Link>
+                    {item.name} : <Link src={item.link}>{item.value}</Link>
                 </Text>
             ))}
         </View>
