@@ -75,11 +75,21 @@ export const query = graphql`
                 responsibilities
                 technologies
                 workType
+                complexResponsibilities{
+                    title
+                    description
+                }
             }
             otherProjects
+            simpleEducations
+            
             simpleOtherProjects
             languages
             educations
+            complexEducations{
+                title
+                url
+            }
         }
     }
 `;

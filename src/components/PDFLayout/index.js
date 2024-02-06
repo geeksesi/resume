@@ -7,6 +7,7 @@ import Experience from "./Components/Experience";
 import WorkExperience from "./Components/WorkExperience";
 import Contact from "./Components/Contact";
 import SideBarItems from "./Components/SideBarItems";
+import SideBarItems2 from "./Components/SideBarItems2";
 import Projects from "./Components/Projects";
 import Projects2 from "./Components/Projects2";
 
@@ -47,7 +48,7 @@ export default ({ resume }) => {
                     <Contact items={[...resume.contact, ...resume.social]} />
                     <SideBarItems items={resume.languages} title="Languages" />
                     {/*<Projects items={resume.projects} />*/}
-                    <SideBarItems items={resume.educations} title="Education" />
+                    <SideBarItems2 items={resume.complexEducations} title="Educations" />
                 </View>
             </Page>
         </Document>

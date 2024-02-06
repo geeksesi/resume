@@ -84,4 +84,7 @@ export default StyleSheet.create({
         fontSize: 8,
         lineHeight: "1.5",
     },
+    roleTitle2: {
+        fontSize: "5px!important"
+    }
 });
