@@ -107,7 +107,6 @@ export default (data) => {
                             </div>
                         </div>
 
-                        {/*<Projects projects={resume.projects} />*/}
                     </div>
 
                     <div className="main">
@@ -152,47 +151,6 @@ export default (data) => {
                                 ))}
                             </div>
                         </div>
-                        {/*<div className="px-10">
-                            <div className="mx-auto border-l-2 border-black border-opacity-70 my-7">
-                                <h3 className="p-4 text-2xl">Experiences</h3>
-                                {resume.experiences.map((item, index) => (
-                                    <article className="py-4" key={index}>
-                                        <ul className="dot-margin list-disc list-inside text-sm align-top font-sans">
-                                            <li className="py-1 px-5">
-                                                <a href={item.url} dangerouslySetInnerHTML={{ __html: item.title }}></a>
-                                                <p className="text-justify">{item.description}</p>
-                                                <ul>
-                                                    {item.responsibilities.map((item, index) => (
-                                                        <li
-                                                            className="py-1 px-5 text-justify"
-                                                            key={index}
-                                                            dangerouslySetInnerHTML={{ __html: item }}
-                                                        ></li>
-                                                    ))}
-                                                </ul>
-                                                {item.technologies && (
-                                                    <>
-                                                        <h6 className="text-xs">
-                                                            <b>Technologies I used</b>
-                                                        </h6>
-                                                        <div className="flex flex-row justify-around text-xs">
-                                                            {item.technologies.map((item, index) => (
-                                                                <span
-                                                                    key={index}
-                                                                    dangerouslySetInnerHTML={{ __html: item }}
-                                                                ></span>
-                                                            ))}
-                                                        </div>
-                                                    </>
-                                                )}
-                                            </li>
-                                        </ul>
-                                    </article>
-                                ))}
-                            </div>
-                        </div>*/}
-
-
                         <div className="px-10">
                             <div className="mx-auto border-l-2 border-black border-opacity-70 my-7">
                                 <h3 className="p-4 text-2xl">Projects:</h3>
@@ -200,7 +158,7 @@ export default (data) => {
                                     <ul className="dot-margin list-disc list-inside text-sm align-top font-sans">
                                         {resume.projects.map((item, index) => (
                                             <li className="py-1 px-5" key={index}>
-                                                <a href={item.url} dangerouslySetInnerHTML={{ __html: item.title }}></a> ({item.startAt}|{item.endAt}) (Link: {item.url})
+                                                <a href={item.url} dangerouslySetInnerHTML={{ __html: item.title }}></a> (From {item.startAt})
                                                 <div className="pl-5">
                                                     <strong>Technologies I used:</strong> {(item.stack.join(", "))}
                                                 </div>
@@ -246,11 +204,9 @@ export const query = graphql`
             projects {
                 title
                 url
-                thumbnail
                 stack
                 description
                 startAt
-                endAt
             }
             about
             experiences {
@@ -279,11 +235,8 @@ export const query = graphql`
                     description
                 }
             }
-            otherProjects
-            simpleOtherProjects
             languages
             educations
-            simpleEducations
             complexEducations{
                 title
                 url

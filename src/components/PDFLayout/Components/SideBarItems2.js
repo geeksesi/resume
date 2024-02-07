@@ -8,13 +8,22 @@ export default ({ items, title }) => {
     return (
         <View style={styles.section}>
             <Text style={styles.subTitle}>{title}</Text>
-            {items.map((item) => (
-                <>
-                    <Link style={styles.text} src={item.url}>
-                        {item.title}
-                    </Link>
-                </>
-            ))}
+            {items.map((item) => {
+                    if (item.url) {
+                        return (
+                            <Link style={styles.text} src={item.url}>
+                                {item.title}
+                            </Link>
+                        );
+                    } else {
+                        return (
+                            <Text style={styles.text}>
+                                {item.title}
+                            </Text>
+                        );
+                    }
+                }
+            )}
         </View>
     );
 };

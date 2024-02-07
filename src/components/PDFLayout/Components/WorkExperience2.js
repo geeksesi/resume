@@ -27,9 +27,9 @@ export default ({ WorkExperience }) => {
             <Text style={styles.text}>{WorkExperience.description}</Text>
             <View style={styles.text}>
                 {WorkExperience.complexResponsibilities.map((item, index) => (
-                    <div key={index}>
-                        <Html>- d{item.title}</Html>
-                        <Html style={styles.text} >{item.description}</Html>
+                    <div key={index} style={styles.textInOneLine}>
+                        <Text style={styles.roleSubTitle}>- {item.title}  <Text style={styles.text} >{item.description}</Text></Text>
+
                     </div>
                 ))}
             </View>

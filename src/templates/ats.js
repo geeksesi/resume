@@ -47,11 +47,9 @@ export const query = graphql`
             projects {
                 title
                 url
-                thumbnail
                 stack
                 description
                 startAt
-                endAt
             }
             about
             experiences {
@@ -80,10 +78,6 @@ export const query = graphql`
                     description
                 }
             }
-            otherProjects
-            simpleEducations
-            
-            simpleOtherProjects
             languages
             educations
             complexEducations{

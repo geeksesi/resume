@@ -40,47 +40,62 @@
         }
     ],
     "skills": [
-        "Proficient in PHP programming language",
+        "Proficient in PHP",
+        "Efficient learner",
         "Skilled in Laravel framework",
-        "Familiar with database management systems, including MySQL",
-        "Experience in front-end development, including HTML, CSS, and JavaScript",
-        "Knowledgeable in version control systems, including Git",
-        "Familiar with agile methodologies, including Scrum",
-        "Teaching and Mentorship",
-        "Efficient learner"
+        "Team player and leadership",
+        "Experienced in MySQL and DBMS.",
+        "Familiar with agile and Scrum",
+        "Experienced in front-end and technologies",
+        "Teaching and Mentorship"
     ],
     "projects": [
         {
-            "startAt": "2020-04",
-            "endAt": "2020-10",
+            "startAt": "April 2020",
             "title": "Banan Bakery",
             "url": "https://app.bananbakery.com/",
-            "thumbnail": "CodeReviewPals",
             "stack": ["PHP", "MySql", "ReactJS", "CI/CD"],
-            "description": "Developed an e-commerce website for a bakery using Laravel framework. Implemented features such as product management, categories, discounts, orders and pre-orders, and shipping costs."
+            "description": "E-commerce site for a bakery, featuring extensive product and order management."
         },
         {
-            "startAt": "2022-12",
-            "endAt": "2023-04",
+            "startAt": "December 2022",
             "title": "Rahnama Fish",
             "url": "https://app.rahnamafish.ir/",
-            "thumbnail": "GuessEmoji",
             "stack": ["PHP", "MySql", "CI/CD"],
-            "description": "Developed an e-commerce website for a seafood store using Laravel framework. Implemented features such as product management, categories, discounts, orders and pre-orders, and shipping costs."
+            "description": "E-commerce website for a seafood store, with comprehensive product and sales features."
         },
         {
-            "startAt": "2020-11",
-            "endAt": "2021-04",
+            "startAt": "October 2020",
             "title": "Ninilos",
             "url": "https://ninilos.com/",
-            "thumbnail": "Resume",
             "stack": ["PHP", "MySql", "CI/CD"],
-            "description": "Developed an e-commerce website for a children's clothing store using Laravel framework. Implemented features such as product management, categories, discounts, orders and pre-orders, and shipping costs."
+            "description": "Children's clothing store e-commerce site using Laravel, integrating advanced product and order functionalities."
+        },
+        {
+            "startAt": "April 2019",
+            "title": "Razeghi",
+            "url": "https://webapp.razeghigroup.com/",
+            "stack": ["PHP", "MySql", "ReactJS", "CI/CD"],
+            "description": "An app for ordering food from Razeghi restaurant, developed using Laravel."
+        },
+        {
+            "startAt": "June 2022",
+            "title": "Narenj",
+            "url": "https://webapp.narenj.me/",
+            "stack": ["PHP", "MySql", "ReactJS", "CI/CD"],
+            "description": "A marketplace app for stores to showcase their products, developed using Laravel."
+        },
+        {
+            "startAt": "August 2021",
+            "title": "Dryvity",
+            "url": "https://dryvity.ir/",
+            "stack": ["PHP", "MySql", "ReactJS", "CI/CD"],
+            "description": "A website for purchasing products like pistachios and dried fruits, developed using Laravel."
         }
+
     ],
-    "otherProjects": "Other digital solutions for well-known brands: Worked on various projects for well-known brands, including Razeghi (<a href=\"https://webapp.razeghigroup.com/\" target=\"_new\">https://webapp.razeghigroup.com/</a>) is an app for ordering food from the Razeghi restaurant, Narenj (<a href=\"https://webapp.narenj.me/\" target=\"_new\">https://webapp.narenj.me/</a>) is an app designed as a marketplace for stores to showcase their products, and Dryvity (<a href=\"https://dryvity.ir/\" target=\"_new\">https://dryvity.ir/</a>) is a website for purchasing products such as pistachios, dried fruits, and more. Developed backend solutions using Laravel framework.",
-    "simpleOtherProjects": "Contributed to brands with digital solutions: Projects include Razeghi (https://webapp.razeghigroup.com) for food orders, Narenj (https://webapp.narenj.me) as a store marketplace app, and Dryvity (https://dryvity.ir) for purchasing products. Used Laravel for backend development.",
-    "about": "Experienced PHP Developer specializing in Laravel framework with a focus on backend development and database management. Proven track record in e-commerce solutions, encompassing product and category management, discounts, orders, pre-orders, and shipping costs. Skilled in mentoring junior developers and thrive in collaborative team environments.",
+
+    "about": "Experienced in PHP and Laravel for backend development and database management. Specialize in e-commerce solutions including product management and shipping. Effective in mentoring juniors and teamwork.",
 
     "experiences": [
         {
@@ -109,12 +124,7 @@
         "<a href='https://quera.org/certificate/2oT6bH7F/'>Project-Oriented Course In Web Development With Php</a>",
         "<a href='https://quera.org/certificate/ziN9ic8I/'>Professional Project-Oriented course in backend development with LARAVEL</a>"
     ],
-    "simpleEducations": [
-        "Master's degree in Computer Science",
-        "TASK-ORIENTED BOOTCAMP IN SOFTWARE ENGINEERING WITH LARAVEL",
-        "Project-Oriented Course In Web Development With Php",
-        "Professional Project-Oriented course in backend development with LARAVEL"
-    ],
+
     "complexEducations": [
         {
             "title": "Master's degree in Computer Science",
@@ -144,14 +154,14 @@
             "url": "https://shahrara.net",
             "description": "Shahrara Company is an active company in creating smart and creative solutions in the digital world.",
             "responsibilities" : [
-                "<strong>PHP mid-level developer (2015-2017):</strong> I joined Shahrara Company as a Mid-Level PHP Developer and, right from the start, focused on enhancing my skills through engaging in new and creative positions alongside various projects.",
+                "<strong>PHP  developer (2015-2017):</strong> I joined Shahrara Company as a PHP Developer and, right from the start, focused on enhancing my skills through engaging in new and creative positions alongside various projects.",
                 "<strong>PHP Senior developer (2017-2021):</strong> After advancing my skills, I transitioned to a Senior Developer role, leading the programming team. Alongside, I actively contributed to generating creative solutions for problem-solving.",
                 "<strong>Team leader (2021-Present):</strong> As a team leader, I excel in project planning, task delegation, and performance assessment. With a decade's experience, I lead teams in adhering to development standards, ensuring code quality, and fostering technical and teamwork skills. I am dedicated to enhancing team coordination, improving project productivity, and facilitating software development processes for optimal results."
             ],
             "complexResponsibilities": [
                 {
-                    "title": "PHP mid-level developer (2015-2017)",
-                    "description": "I joined Shahrara Company as a Mid-Level PHP Developer and, right from the start, focused on enhancing my skills through engaging in new and creative positions alongside various projects."
+                    "title": "PHP developer (2015-2017)",
+                    "description": "I joined Shahrara Company as a PHP Developer and, right from the start, focused on enhancing my skills through engaging in new and creative positions alongside various projects."
                 },
                 {
                     "title": "PHP Senior developer (2017-2021)",
@@ -170,18 +180,18 @@
             "nameOfCompany" : "Castel Game" ,
             "companyLocation" : "" ,
             "durationOfEmployment": "(2023 | 2024)",
-            "url": "",
-            "description": "php developer: as member with other 7 team members, i was responsible to build Api's and structure high demand Services like War and Building systems.",
+            "url": "https://castelgame.com",
+            "description": "MMORTS BlockChain Based Game.",
             "responsibilities" : [
                 "<strong>PHP developer</strong> as member with other 7 team members, i was responsible to build Api's and structure high demand Services like War and Building systems."
             ],
             "complexResponsibilities": [
                 {
                     "title": "PHP developer",
-                    "description": "as member with other 7 team members, i was responsible to build Api's and structure high demand Services like War and Building systems."
+                    "description": "Part of a 7-member team, responsible for building APIs and structuring high-demand services like War and Building systems in PHP."
                 }
             ],
-            "technologies": ["PHP", "Laravel", "MySQL"]
+            "technologies": ["PHP", "Laravel", "MySQL", "Git", "Redis", "React"]
         }
     ]
 }

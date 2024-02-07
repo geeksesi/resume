@@ -26,7 +26,7 @@ export default StyleSheet.create({
         padding: 30,
     },
     section: {
-        marginBottom: 10,
+        marginBottom: 8,
     },
     leftColumn: {
         flexDirection: "column",
@@ -66,6 +66,12 @@ export default StyleSheet.create({
         marginBottom: 3,
         fontFamily: "Rubik",
     },
+    roleSubTitle: {
+        fontSize: 9,
+        fontWeight: "bold",
+        marginBottom: 3,
+        fontFamily: "Rubik",
+    },
     text: {
         fontSize: 9,
         marginBottom: 3,
@@ -86,5 +92,9 @@ export default StyleSheet.create({
     },
     roleTitle2: {
         fontSize: "5px!important"
+    },
+    textInOneLine:{
+        display:"flex"
     }
+
 });
