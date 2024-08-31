@@ -27,7 +27,9 @@ export default (data) => {
                         document={<PDFLayout resume={resume} />}
                         fileName={fileName}
                     >
-                        {({ blob, url, loading, error }) => (loading ? "Loading document..." : "Download PDF!")}
+                        {({ blob, url, loading, error }) =>
+                            loading ? "Loading document..." : "Download PDF!"
+                        }
                     </PDFDownloadLink>
                 </div>
             )}
@@ -49,7 +51,7 @@ export default (data) => {
                 <main className="flex max-w-screen-xl mx-auto flex-wrap">
                     <div className="sidebar">
                         <div className="flex justify-center p-5">
-                            <img src={avatar} className="aspect-square" />
+                            <img src={avatar} className="aspect-auto" />
                         </div>
                         <div className="px-5">
                             <div className="mx-auto border-l-2 border-black border-opacity-70 my-1">
@@ -104,14 +106,19 @@ export default (data) => {
                                     <article className="py-4" key={index}>
                                         <ul className="dot-margin list-disc list-inside text-sm align-top font-sans">
                                             <li className="py-1 px-5">
-                                                <a href={item.url} dangerouslySetInnerHTML={{ __html: item.title }}></a>
+                                                <a
+                                                    href={item.url}
+                                                    dangerouslySetInnerHTML={{ __html: item.title }}
+                                                ></a>
                                                 <p className="text-justify">{item.description}</p>
                                                 <ul>
                                                     {item.responsibilities.map((item, index) => (
                                                         <li
                                                             className="py-1 px-5 text-justify"
                                                             key={index}
-                                                            dangerouslySetInnerHTML={{ __html: item }}
+                                                            dangerouslySetInnerHTML={{
+                                                                __html: item,
+                                                            }}
                                                         ></li>
                                                     ))}
                                                 </ul>
@@ -121,12 +128,16 @@ export default (data) => {
                                                             <b>Technologies I used</b>
                                                         </h6>
                                                         <div className="flex flex-row justify-around text-xs">
-                                                            {item.technologies.map((item, index) => (
-                                                                <span
-                                                                    key={index}
-                                                                    dangerouslySetInnerHTML={{ __html: item }}
-                                                                ></span>
-                                                            ))}
+                                                            {item.technologies.map(
+                                                                (item, index) => (
+                                                                    <span
+                                                                        key={index}
+                                                                        dangerouslySetInnerHTML={{
+                                                                            __html: item,
+                                                                        }}
+                                                                    ></span>
+                                                                ),
+                                                            )}
                                                         </div>
                                                     </>
                                                 )}

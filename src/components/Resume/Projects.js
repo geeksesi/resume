@@ -1,10 +1,10 @@
 import * as React from "react";
 import GuessEmoji from "../../assets/images/projects/emoji-guess.jpg";
-import CodeReviewPals from "../../assets/images/projects/code-review-pals.jpg";
+import CastelGame from "../../assets/images/projects/castel.jpg";
 import Resume from "../../assets/images/projects/resume.jpg";
 const avatars = {
     GuessEmoji: GuessEmoji,
-    CodeReviewPals: CodeReviewPals,
+    CastelGame: CastelGame,
     Resume: Resume,
 };
 const Projects = ({ projects }) => (
@@ -22,7 +22,9 @@ const Projects = ({ projects }) => (
                                     src={avatars[item.thumbnail]}
                                 />
                                 <div className="flex-grow pl-2">
-                                    <h2 className="title-font font-medium text-lg text-gray-900">{item.title}</h2>
+                                    <h2 className="title-font font-medium text-lg text-gray-900">
+                                        {item.title}
+                                    </h2>
                                 </div>
                             </div>
                         </a>

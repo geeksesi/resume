@@ -49,11 +49,11 @@
     ],
     "projects": [
         {
-            "title": "CodeReviewPals.com",
-            "url": "https://github.com/CodeReviewPals/code-review-pals/",
-            "thumbnail": "CodeReviewPals",
-            "stack": ["PHP", "MySql", "ReactJS", "CI/CD"],
-            "description": "a volunteer community, so you review junior coders' code and guide them "
+            "title": "CastelGame.com",
+            "url": "https://castelgame.com/",
+            "thumbnail": "CastelGame",
+            "stack": ["Laravel", "MySql", "ReactJS", "CI/CD", "Redis", "Rust (Micro Module)"],
+            "description": "a Crypto/Telgram based Massive Multiplayer Onlie Strategy Game"
         },
         {
             "title": "Guess Emoji Telegram Game",
@@ -74,6 +74,21 @@
     "educations": ["Bachelor's degree in Computer Engineering"],
     "about": "Passionate software developer with a focus on backend technologies. Dedicated to building impactful software solutions. Committed to continuous learning and sharing knowledge.",
     "experiences": [
+        {
+            "title": "<strong>Full Stack Developer</strong> at <strong>AwardMaven</strong> (July 2023 - now) - Remote",
+            "role": "Full Stack Developer",
+            "company": "AwardMaven",
+            "time": "July 2023 - now",
+            "type": "Remote",
+            "url": "https://awardmaven.com/",
+            "description": "",
+            "responsibilities": [
+                "Developed a Generator tool that increased designer speed by 3x by automating repetitive tasks, enhancing customer experience and efficiency.",
+                "Enabled customers to instantly update their orders for corrections or data replacements, reducing the required human resources by 20% in the sales and design teams",
+                "Created a self customer checkout and order management system with task automation and WordPress integration, significantly boosting the sales team's performance."
+            ],
+            "technologies": ["Laravel", "MySQL", "Redis", "TDD", "livewire", "vue.js", "Wordpress"]
+        },
         {
             "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2022 - May 2023) - Remote",
             "role": "Back End Developer",
@@ -103,21 +118,6 @@
                 "Contributed to the company's <b>Agile</b> development process and facilitated communication between the development team and non-technical stakeholders. Helped ensure that the team was aligned with company goals and objectives."
             ],
             "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL", "TDD"]
-        },
-        {
-            "title": "<strong>Teaching and Mentorship</strong> (From 2020)",
-            "role": "Teaching and Mentorship",
-            "company": "Self employed",
-            "time": "From 2020",
-            "type": "Remote",
-            "url": "",
-            "description": "I have a passion for sharing my knowledge with others and enjoy the opportunity to communicate and connect with people.",
-            "responsibilities": [
-                "serving as TA and created a <a href=\"https://youtube.com/@geeksesi\">YouTube channel</a> to answer questions and provide guidance to students and make +20 videos covering topics about: algorithm, flowchart and C++.",
-                "Created <a href=\"https://github.com/geeksesi/guess_emoji_telegram_bot\">project-based videos on PHP</a> and mentored individuals through one-on-one coaching.",
-                "Serving as a mentor for a group of students in the <a href=\"https://quera.ir\">Quera.ir</a> software development bootcamp, teaching design patterns and team work through online videos and group projects.",
-                "Started a <a href=\"https://youtube.com/@ghasemy_javad\">English YouTube channel</a> with +15 videos about PHP, Laravel and opensource projects."
-            ]
         },
         {
             "title": "<strong>Full Stack Freelance Developer</strong> (2018 - 2021)",
