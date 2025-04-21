@@ -64,6 +64,7 @@ export const query = graphql`
             }
             languages
             educations
+            availability
         }
     }
 `;

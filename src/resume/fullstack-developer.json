@@ -73,6 +73,7 @@
     "languages": ["Persian (Native)", "English (Intermediate)"],
     "educations": ["Bachelor's degree in Computer Engineering"],
     "about": "Passionate software developer with a focus on web technologies. Dedicated to building impactful software solutions. Committed to continuous learning and sharing knowledge.",
+    "availability": ["Available for remote work and relocation offers."],
     "experiences": [
         {
             "title": "<strong>Full Stack Developer</strong> at <strong>AwardMaven</strong> (July 2023 - now) - Remote",
