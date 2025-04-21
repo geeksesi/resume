@@ -24,7 +24,7 @@ export default ({ experience }) => {
             {experience.technologies && (
                 <Text style={styles.text}>Technologies Used: {experience.technologies.join(", ")}</Text>
             )}
-            <Text style={styles.text}>{experience.description}</Text>
+            <Text style={styles.description}>{experience.description}</Text>
             <View style={styles.text}>
                 {experience.responsibilities.map((text, index) => (
                     <Html style={styles.text} key={index}>{`- ${text}`}</Html>

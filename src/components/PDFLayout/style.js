@@ -73,6 +73,13 @@ export default StyleSheet.create({
         fontFamily: "OpenSans",
         lineHeight: "1.7",
     },
+    description: {
+        fontSize: 10,
+        marginBottom: 3,
+        textAlign: "justify",
+        fontFamily: "OpenSans",
+        lineHeight: "1.8",
+    },
     socialTitleText: {
         fontSize: 9,
         marginBottom: 3,

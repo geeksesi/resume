@@ -36,6 +36,7 @@ export default ({ resume }) => {
                     <SideBarItems items={resume.languages} title="Languages" />
                     <Projects items={resume.projects} />
                     <SideBarItems items={resume.educations} title="Education" />
+                    <SideBarItems items={resume.availability} title="" />
                 </View>
             </Page>
         </Document>
