@@ -2,16 +2,12 @@
     "slug": "fullstack-developer",
     "name": "Mohammad Javad Ghasemy",
     "title": "FullStack Developer",
+    "location": "Yerevan - Armenia",
     "contact": [
         {
             "name": "email",
             "title": "geeksesi@gmail.com",
             "link": "mailto:geeksesi@gmail.com"
-        },
-        {
-            "name": "phone",
-            "title": "+4407825039391",
-            "link": "tel:+4407825039391"
         }
     ],
     "social": [
@@ -21,9 +17,19 @@
             "title": "Geeksesi"
         },
         {
-            "name": "youtube",
+            "name": "videos",
             "link": "https://www.youtube.com/@MJ-Programmer",
             "title": "English Channel"
+        },
+        {
+            "name": "articles",
+            "link": "https://dev.to/geeksesi",
+            "title": "dev.to/geeksesi"
+        },
+        {
+            "name": "portfolio",
+            "link": "https://geeksesi.com",
+            "title": "geeksesi.com"
         },
         {
             "name": "x",
@@ -41,6 +47,17 @@
         "Continuous learner",
         "Test-Driven Development (TDD)",
         "Proficient in design patterns"
+    ],
+    "hardSkills": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "GraphQL",
+        "RabbitMQ",
+        "CI/CD"
     ],
     "projects": [
         {
@@ -71,8 +88,8 @@
     "about": "Passionate software developer with a focus on backend technologies. Dedicated to building impactful software solutions. Committed to continuous learning and sharing knowledge.",
     "experiences": [
         {
-            "title": "<strong>Full Stack Developer</strong> at <strong>AwardMaven</strong> (July 2023 - now) - Remote",
-            "role": "Full Stack Developer",
+            "title": "<strong>Back End Developer</strong> at <strong>AwardMaven</strong> (July 2023 - now) | Remote",
+            "role": "Back End Developer",
             "company": "AwardMaven",
             "time": "July 2023 - now",
             "type": "Remote",
@@ -84,10 +101,10 @@
                 "Enabled customers to instantly update their orders for corrections or data replacements, reducing the required human resources by 20% in the sales and design teams",
                 "Created a self customer checkout and order management system with task automation and WordPress integration, significantly boosting the sales team's performance."
             ],
-            "technologies": ["Laravel", "MySQL", "Redis", "TDD", "Vue.js"]
+            "technologies": ["Laravel", "MySQL", "Redis", "TDD"]
         },
         {
-            "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2022 - May 2023) - Remote",
+            "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2022 - May 2023) | Remote",
             "role": "Back End Developer",
             "company": "JackWestin",
             "time": "May 2022 - May 2023",
@@ -102,8 +119,8 @@
             "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "Stripe", "TDD"]
         },
         {
-            "title": "<strong>Backend Developer</strong> at <strong>Signalads.com</strong> (Oct 2021 - May 2022) - Hybrid",
-            "role": "Backend Developer",
+            "title": "<strong>PHP Back End Developer</strong> at <strong>Signalads.com</strong> (Oct 2021 - May 2022) | Hybrid",
+            "role": "PHP Back End Developer",
             "company": "Signalads",
             "time": "Oct 2021 - May 2022",
             "type": "Hybrid",

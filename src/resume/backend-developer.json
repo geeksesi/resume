@@ -17,22 +17,22 @@
             "title": "Geeksesi"
         },
         {
-            "name": "Videos",
+            "name": "videos",
             "link": "https://www.youtube.com/@MJ-Programmer",
             "title": "English Channel"
         },
         {
-            "name": "Articles",
+            "name": "articles",
             "link": "https://dev.to/geeksesi",
             "title": "dev.to/geeksesi"
         },
         {
-            "name": "Portfolio",
+            "name": "portfolio",
             "link": "https://geeksesi.com",
             "title": "geeksesi.com"
         },
         {
-            "name": "X",
+            "name": "x",
             "link": "https://x.com/MJ_ghasemy",
             "title": "MJ"
         }

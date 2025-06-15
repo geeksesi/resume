@@ -5,16 +5,22 @@ import avatar from "../assets/images/me.jpg";
 import github from "../assets/images/github.png";
 import linkedIn from "../assets/images/linkedin.png";
 import youtube from "../assets/images/youtube.png";
+import dev from "../assets/images/dev.png";
+import x from "../assets/images/x.png";
 import { graphql } from "gatsby";
 import Projects from "../components/Resume/Projects";
-import ATSLayout from "../components/ATSLayout/index";
+import MinimalLayout from "../components/MinimalLayout/index";
 import { PDFDownloadLink } from "@react-pdf/renderer";
+import Resume from "../assets/images/projects/resume.jpg";
 
 export default (data) => {
     const socials = {
         github: github,
         linkedin: linkedIn,
-        youtube: youtube,
+        videos: youtube,
+        articles: dev,
+        portfolio: Resume,
+        x: x,
     };
     const resume = data.data.resumeJson;
     const fileName = `${resume.name.replace(" ", "-")}-${resume.slug}.pdf`;
@@ -24,7 +30,7 @@ export default (data) => {
                 <div className="absolute left-2/3 top-5">
                     <PDFDownloadLink
                         className="p-2 bg-red-500 text-white font-bold no-underline rounded-md"
-                        document={<ATSLayout resume={resume} />}
+                        document={<MinimalLayout resume={resume} />}
                         fileName={fileName}
                     >
                         {({ blob, url, loading, error }) =>
@@ -163,6 +169,7 @@ export const query = graphql`
             slug
             name
             title
+            location
             contact {
                 link
                 name
@@ -174,6 +181,7 @@ export const query = graphql`
                 link
             }
             skills
+            hardSkills
             projects {
                 title
                 url
