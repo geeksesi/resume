@@ -1,5 +1,5 @@
 import * as React from "react";
-import ATSLayout from "../components/ATSLayout/index";
+import PDFLayout from "../components/MinimalLayout/index";
 import "../styles/index.css";
 import { graphql } from "gatsby";
 import { PDFViewer } from "@react-pdf/renderer";
@@ -16,7 +16,7 @@ export default (data) => {
         <div>
             {isClient && (
                 <PDFViewer className="w-full h-screen">
-                    <ATSLayout resume={resume} />
+                    <PDFLayout resume={resume} />
                 </PDFViewer>
             )}
         </div>

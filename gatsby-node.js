@@ -18,8 +18,15 @@ exports.createPages = async ({ graphql, actions }) => {
             },
         });
         actions.createPage({
-            path: `ats/${node.name}`,
+            path: `${node.name}/ats`,
             component: require.resolve("./src/templates/ats.js"),
+            context: {
+                slug: `${node.name}`,
+            },
+        });
+        actions.createPage({
+            path: `${node.name}/minimal`,
+            component: require.resolve("./src/templates/minimal.js"),
             context: {
                 slug: `${node.name}`,
             },

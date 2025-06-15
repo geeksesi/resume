@@ -7,7 +7,7 @@ import linkedIn from "../assets/images/linkedin.png";
 import youtube from "../assets/images/youtube.png";
 import { graphql } from "gatsby";
 import Projects from "../components/Resume/Projects";
-import PDFLayout from "../components/PDFLayout/index";
+import ATSLayout from "../components/ATSLayout/index";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 
 export default (data) => {
@@ -24,7 +24,7 @@ export default (data) => {
                 <div className="absolute left-2/3 top-5">
                     <PDFDownloadLink
                         className="p-2 bg-red-500 text-white font-bold no-underline rounded-md"
-                        document={<PDFLayout resume={resume} />}
+                        document={<ATSLayout resume={resume} />}
                         fileName={fileName}
                     >
                         {({ blob, url, loading, error }) =>
