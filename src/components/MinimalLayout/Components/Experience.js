@@ -11,18 +11,18 @@ export default ({ experience }) => {
             <Text style={styles.roleTitle}>
                 {experience.role} -{" "}
                 {experience.url ? (
-                    <Link src={experience.url}>{experience.company}</Link>
+                    <Link style={styles.link} src={experience.url}>{experience.company}</Link>
                 ) : (
                     <Text>{experience.company}</Text>
                 )}
                 <Text style={styles.subText}>
                     {" "}
-                    - {experience.time} - {experience.type}
+                    - {experience.time} | {experience.type}
                 </Text>
             </Text>
 
             {experience.technologies && (
-                <Text style={styles.text}>Technologies Used: {experience.technologies.join(", ")}</Text>
+                <Text style={styles.text}>Stack: {experience.technologies.join(", ")}</Text>
             )}
             <Text style={styles.description}>{experience.description}</Text>
             <View style={styles.text}>

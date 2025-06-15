@@ -23,36 +23,34 @@ export default StyleSheet.create({
     page: {
         flexDirection: "row",
         backgroundColor: "#FFFFFF",
-        padding: 30,
+        padding: 15,
+        paddingHorizontal: 30,
     },
     section: {
-        marginBottom: 10,
+        marginBottom: 3,
     },
-    leftColumn: {
+    view: {
         flexDirection: "column",
-        width: "70%",
-        marginRight: "5%",
-    },
-    rightColumn: {
-        flexDirection: "column",
-        width: "25%",
+        width: "100%",
     },
     name: {
-        fontSize: 20,
+        fontSize: 16,
         fontWeight: "bold",
         marginBottom: 0,
-        fontFamily: "Belanosima",
+        fontFamily: "Rubik",
     },
     role: {
-        fontSize: 13,
-        fontWeight: "bold",
+        fontSize: 12,
+        fontWeight: "medium",
+        marginBottom: 0,
         fontFamily: "Rubik",
     },
     title: {
-        fontSize: 15,
+        fontSize: 13,
         fontWeight: "bold",
         marginBottom: 5,
         fontFamily: "Rubik",
+        color: "#0060df",
     },
     subTitle: {
         fontSize: 12,
@@ -86,6 +84,11 @@ export default StyleSheet.create({
         textAlign: "justify",
         textTransform: "capitalize",
         lineHeight: "1.7",
+    },
+    link: {
+        color: "#2980b9",
+        textDecoration: "none",
+
     },
     subText: {
         fontSize: 8,

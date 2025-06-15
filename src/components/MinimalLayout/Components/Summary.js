@@ -7,6 +7,7 @@ export default ({ text }) => {
 
     return (
         <View style={styles.section}>
+            <Text style={styles.title}>Summary</Text>
             <Text style={styles.text}>{text}</Text>
         </View>
     );

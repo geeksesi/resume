@@ -7,16 +7,27 @@ export default ({ items }) => {
 
     return (
         <View style={styles.section}>
-            <Text style={styles.subTitle}>OpenSource Projects</Text>
-            {items.map((item) => (
-                <>
-                    <Link style={styles.text} src={item.url}>
-                        {item.title}
-                    </Link>
-                    <Text style={styles.subText}>{`Skills: ${item.stack.join(", ")}`}</Text>
-                    <Text style={styles.subText}>{item.description}</Text>
-                </>
-            ))}
+            <Text style={styles.title}>OpenSource Projects</Text>
+            <View style={{
+                flexDirection: "row",
+                flexWrap: "wrap",
+                justifyContent: "space-between"
+            }}>
+                {items.map((item) => (
+                    <View key={item.title} style={{ 
+                        width: "32%",
+                        marginBottom: 10,
+                        padding: 0,
+                        // minHeight: 150
+                    }}>
+                        <Link style={styles.text} src={item.url}>
+                            {item.title}
+                        </Link>
+                        <Text style={styles.subText}>{item.description}</Text>
+                        <Text style={styles.subText}>{`Stack: ${item.stack.join(" | ")}`}</Text>
+                    </View>
+                ))}
+            </View>
         </View>
     );
 };

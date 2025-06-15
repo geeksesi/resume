@@ -7,12 +7,25 @@ export default ({ items }) => {
 
     return (
         <View style={styles.section}>
-            <Text style={styles.subTitle}>Contact</Text>
-            {items.map((item) => (
-                <Text style={styles.socialTitleText}>
-                    {item.name} : <Link src={item.link}>{item.title}</Link>
-                </Text>
-            ))}
+            <Text>
+                {items.map((item, i) => {
+
+                    if (typeof item === "string") {
+                        return <>
+                            <Text key={i} style={styles.socialTitleText}>{item}</Text>
+                            {i < items.length - 1 && <Text style={styles.socialTitleText}>{" | "}</Text>}
+                        </>;
+                    }
+                    if (item.name === "email") {
+                        return <Link style={[styles.socialTitleText, styles.link]} src={`mailto:${item.link}`}>{item.title}</Link>;
+                    }
+                    return <>
+                        <Link style={[styles.socialTitleText, styles.link]} src={item.link}>{item.name}</Link>
+                        {i < items.length - 1 && <Text style={styles.socialTitleText}>{" | "}</Text>}
+
+                    </>
+                })}
+            </Text>
         </View>
     );
 };

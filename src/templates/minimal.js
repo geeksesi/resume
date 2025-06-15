@@ -32,6 +32,7 @@ export const query = graphql`
             slug
             name
             title
+            location
             contact {
                 link
                 name
@@ -43,6 +44,7 @@ export const query = graphql`
                 link
             }
             skills
+            hardSkills
             projects {
                 title
                 url
