@@ -44,5 +44,21 @@ module.exports = {
             },
             __key: "pages",
         },
+        {
+            resolve: `gatsby-plugin-google-gtag`,
+            options: {
+                trackingIds: [
+                    "G-DNB6JXG3JV",
+                ],
+                gtagConfig: {
+                },
+                pluginConfig: {
+                    head: true,
+                    respectDNT: true,
+                    exclude: [],
+                    delayOnRouteUpdate: 0,
+                },
+            },
+        },
     ],
 };
