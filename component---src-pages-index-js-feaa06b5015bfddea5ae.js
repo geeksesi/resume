@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkresume_mohammad_javad_ghasemy=self.webpackChunkresume_mohammad_javad_ghasemy||[]).push([[678],{6558:function(e,a,t){t.r(a),t.d(a,{Head:function(){return u}});var m=t(7294),n=t(1883);a.default=()=>("undefined"!=typeof window&&(0,n.navigate)("/fullstack-developer"),m.createElement(n.Link,{to:"/fullstack-developer/"}));const u=()=>m.createElement("title",null,"Resume Mohammad Javad Ghasemy")}}]);
+//# sourceMappingURL=component---src-pages-index-js-feaa06b5015bfddea5ae.js.map
