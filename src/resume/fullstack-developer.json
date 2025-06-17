@@ -52,34 +52,40 @@
         "PHP",
         "Laravel",
         "MySQL",
-        "PostgreSQL",
-        "Redis",
+        "Git/LazyGit",
+        "Filament",
+        "ReactJS",
+        "Phaser",
         "Docker",
+        "Redis",
         "GraphQL",
-        "RabbitMQ",
-        "CI/CD"
+        "WordPress",
+        "PostgreSQL",
+        "CI/CD",
+        "vue.js",
+        "livewire/Alpine"
     ],
     "projects": [
         {
             "title": "CastelGame.com",
             "url": "https://castelgame.com/",
             "thumbnail": "CastelGame",
-            "stack": ["Laravel", "MySql", "ReactJS", "CI/CD", "Redis", "Rust (Micro Module)"],
-            "description": "a Crypto/Telgram based Massive Multiplayer Onlie Strategy Game"
+            "stack": ["Laravel", "MySql", "ReactJS", "CI/CD", "Phaser", "Rust Language"],
+            "description": "a Crypto/Telegram based Massive Multiplayer Online Strategy (MMORTS) Game"
         },
         {
             "title": "Guess Emoji Telegram Game",
             "url": "https://github.com/geeksesi/guess_emoji_telegram_bot",
             "thumbnail": "GuessEmoji",
             "stack": ["PHP", "MySql", "CI/CD"],
-            "description": "Project based free PHP Tutorial (Youtube)"
+            "description": "A Youtube series ( in persian ) to teach PHP with project based approach."
         },
         {
             "title": "My Resume",
             "url": "https://github.com/geeksesi/resume",
             "thumbnail": "Resume",
             "stack": ["GraphQL", "GatsbyJs", "ReactJS", "TailwindCSS"],
-            "description": ""
+            "description": "This project includes my resume website with various templates."
         }
     ],
     "languages": ["English (Advanced)"],
@@ -88,8 +94,8 @@
     "about": "Passionate software developer with a focus on backend technologies. Dedicated to building impactful software solutions. Committed to continuous learning and sharing knowledge.",
     "experiences": [
         {
-            "title": "<strong>Back End Developer</strong> at <strong>AwardMaven</strong> (July 2023 - now) | Remote",
-            "role": "Back End Developer",
+            "title": "<strong>Full Stack Developer</strong> at <strong>AwardMaven</strong> (July 2023 - now) | Remote",
+            "role": "Full Stack Developer",
             "company": "AwardMaven",
             "time": "July 2023 - now",
             "type": "Remote",
@@ -101,7 +107,7 @@
                 "Enabled customers to instantly update their orders for corrections or data replacements, reducing the required human resources by 20% in the sales and design teams",
                 "Created a self customer checkout and order management system with task automation and WordPress integration, significantly boosting the sales team's performance."
             ],
-            "technologies": ["Laravel", "MySQL", "Redis", "TDD"]
+            "technologies": ["Laravel", "MySQL", "Redis", "TDD", "Docker", "Vue.js", "Livewire/Alpine"]
         },
         {
             "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2022 - May 2023) | Remote",
@@ -119,9 +125,9 @@
             "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "Stripe", "TDD"]
         },
         {
-            "title": "<strong>PHP Back End Developer</strong> at <strong>Signalads.com</strong> (Oct 2021 - May 2022) | Hybrid",
+            "title": "<strong>PHP Back End Developer</strong> at <strong>SignalAds.com</strong> (Oct 2021 - May 2022) | Hybrid",
             "role": "PHP Back End Developer",
-            "company": "Signalads",
+            "company": "SignalAds",
             "time": "Oct 2021 - May 2022",
             "type": "Hybrid",
             "url": "https://signalads.com/",
