@@ -1,0 +1,148 @@
+{
+    "slug": "software-engineer",
+    "name": "Mohammad Javad Ghasemy",
+    "title": "Software Engineer",
+    "location": "Qom - Iran",
+    "contact": [
+        {
+            "name": "email",
+            "title": "geeksesi@gmail.com",
+            "link": "mailto:geeksesi@gmail.com"
+        }
+    ],
+    "social": [
+        {
+            "name": "github",
+            "link": "https://github.com/geeksesi/",
+            "title": "Geeksesi"
+        },
+        {
+            "name": "videos",
+            "link": "https://www.youtube.com/@MJ-Programmer",
+            "title": "English Channel"
+        },
+        {
+            "name": "x",
+            "link": "https://x.com/MJ_ghasemy",
+            "title": "MJ"
+        }
+    ],
+    "skills": [
+        "Ownership and initiative",
+        "Code reviews and quality advocacy",
+        "Scalability and performance optimization",
+        "Problem-solving and analytical thinking",
+        "Teaching and Mentorship",
+        "Test-Driven Development (TDD)",
+        "Proficient in design patterns",
+        "Strong technical communication"
+    ],
+    "hardSkills": [
+        "PHP",
+        "Python",
+        "Laravel",
+        "Node.js",
+        "MySQL",
+        "MongoDB",
+        "Git/LazyGit",
+        "Filament",
+        "ReactJS",
+        "Next.js",
+        "Phaser",
+        "Docker",
+        "Redis",
+        "GraphQL",
+        "WordPress",
+        "PostgreSQL",
+        "CI/CD",
+        "vue.js",
+        "livewire/Alpine"
+    ],
+    "projects": [
+        {
+            "title": "CastelGame.com",
+            "url": "https://castelgame.com/",
+            "thumbnail": "CastelGame",
+            "stack": ["Laravel", "MySql", "ReactJS", "CI/CD", "Phaser", "Rust Language"],
+            "description": "a Crypto/Telegram based Massive Multiplayer Online Strategy (MMORTS) Game"
+        },
+        {
+            "title": "Guess Emoji Telegram Game",
+            "url": "https://github.com/geeksesi/guess_emoji_telegram_bot",
+            "thumbnail": "GuessEmoji",
+            "stack": ["PHP", "MySql", "CI/CD"],
+            "description": "A Youtube series ( in persian ) to teach PHP with project based approach."
+        },
+        {
+            "title": "My Resume",
+            "url": "https://github.com/geeksesi/resume",
+            "thumbnail": "Resume",
+            "stack": ["GraphQL", "GatsbyJs", "ReactJS", "TailwindCSS"],
+            "description": "This project includes my resume website with various templates."
+        }
+    ],
+    "languages": ["English (Advanced)"],
+    "availability": ["Open to Remote job."],
+    "educations": ["Associate's degree in Computer Engineering"],
+    "about": "Software engineer with 5+ years building scalable full-stack solutions. Specialized in backend optimization, TDD practices, and code quality. Track record of ownership-driven development that reduces operational overhead and accelerates team velocity.",
+    "experiences": [
+        {
+            "title": "<strong>Software Engineer</strong> at <strong>AwardMaven</strong> (July 2023 - now) | Remote",
+            "role": "Software Engineer",
+            "company": "AwardMaven",
+            "time": "July 2023 - now",
+            "type": "Remote",
+            "url": "https://awardmaven.com/",
+            "description": "a CMS platform that connects sales teams with customers and vendors through legal documents and actionable workflows.",
+            "responsibilities": [
+                "Partnered with product and sales to solve workflow issues via system design.",
+                "Developed Generator tool that increased designer speed by 3x through automation.",
+                "Built self-service order management reducing support overhead by 20%.",
+                "Created automated checkout system with WordPress integration, boosting sales team performance."
+            ],
+            "technologies": ["Laravel", "MySQL", "Redis", "TDD", "Vue.js", "Python", "Next.js"]
+        },
+        {
+            "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2022 - May 2023) | Remote",
+            "role": "Back End Developer",
+            "company": "JackWestin",
+            "time": "May 2022 - May 2023",
+            "type": "Remote",
+            "url": "https://jackwestin.com",
+            "description": "JackWestin is a high-traffic LMS platform where students prepare for exams using interactive courses, practice exams, and flashcards.",
+            "responsibilities": [
+                "Implemented Anki-inspired features enhancing user experience.",
+                "Optimized database queries, refactored codebase, and ensured comprehensive testing.",
+                "Dockerized Laravel application and maintained Stripe payment integration."
+            ],
+            "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "Stripe", "TDD"]
+        },
+        {
+            "title": "<strong>PHP Back End Developer</strong> at <strong>SignalAds.com</strong> (Oct 2021 - May 2022) | Hybrid",
+            "role": "PHP Back End Developer",
+            "company": "SignalAds",
+            "time": "Oct 2021 - May 2022",
+            "type": "Hybrid",
+            "url": "https://signalads.com/",
+            "description": "",
+            "responsibilities": [
+                "Refactored SMS broker system utilizing RabbitMQ and Laravel Queue for high performance.",
+                "Optimized GraphQL codebase, resolved N+1 queries, and ensured comprehensive testing.",
+                "Facilitated <b>Agile</b> communication between development team and non-technical stakeholders."
+            ],
+            "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL", "TDD"]
+        },
+        {
+            "title": "<strong>Full Stack Freelance Developer</strong> (2018 - 2021)",
+            "role": "Full Stack Freelance Developer",
+            "company": "Self employed",
+            "time": "2018 - 2021",
+            "type": "Remote & hybrid",
+            "url": "https://github.com/geeksesi",
+            "description": " worked on various projects ranging from web development to game development and blockchain.",
+            "responsibilities": [
+            ],
+            "technologies": ["PHP", "Laravel", "Wordpress", "ReactJs", "Docker"]
+        }
+    ]
+}
