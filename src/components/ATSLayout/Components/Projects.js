@@ -5,6 +5,10 @@ import style from "../style";
 export default ({ items }) => {
     const styles = style;
 
+    if (!items || items.length === 0) {
+        return null;
+    }
+
     return (
         <View style={styles.section}>
             <Text style={styles.subTitle}>OpenSource Projects</Text>

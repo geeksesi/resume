@@ -23,7 +23,7 @@ export default StyleSheet.create({
     page: {
         flexDirection: "row",
         backgroundColor: "#FFFFFF",
-        padding: 15,
+        padding: 12,
         paddingHorizontal: 30,
     },
     section: {
