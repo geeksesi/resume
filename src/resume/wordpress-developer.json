@@ -1,0 +1,160 @@
+{
+    "slug": "wordpress-developer",
+    "name": "Mohammad Javad Ghasemy",
+    "title": "WordPress Engineer",
+    "location": "Yerevan - Armenia",
+    "contact": [
+        {
+            "name": "email",
+            "title": "geeksesi@gmail.com",
+            "link": "mailto:geeksesi@gmail.com"
+        }
+    ],
+    "social": [
+        {
+            "name": "github",
+            "link": "https://github.com/geeksesi/",
+            "title": "Geeksesi"
+        },
+        {
+            "name": "videos",
+            "link": "https://www.youtube.com/@MJ-Programmer",
+            "title": "English Channel"
+        },
+        {
+            "name": "articles",
+            "link": "https://dev.to/geeksesi",
+            "title": "dev.to/geeksesi"
+        },
+        {
+            "name": "portfolio",
+            "link": "https://geeksesi.com",
+            "title": "geeksesi.com"
+        },
+        {
+            "name": "x",
+            "link": "https://x.com/MJ_ghasemy",
+            "title": "MJ"
+        }
+    ],
+    "skills": [
+        "Custom theme and plugin development",
+        "Gutenberg block development",
+        "Template hierarchy and architecture",
+        "Performance optimization and caching",
+        "Problem-solving and analytical",
+        "Teaching and Mentorship",
+        "Continuous learner",
+        "SEO and accessibility best practices",
+        "Project leadership and team management"
+    ],
+    "hardSkills": [
+        "WordPress",
+        "PHP",
+        "ACF",
+        "Gutenberg",
+        "Elementor",
+        "WooCommerce",
+        "Sage",
+        "MySQL",
+        "Git",
+        "Docker",
+        "WP-Rocket",
+        "REST API",
+        "CI/CD",
+        "AWS",
+        "CSS/SASS",
+        "TailWindCss"
+    ],
+    "projects": [
+        {
+            "title": "CastelGame.com",
+            "url": "https://castelgame.com/",
+            "thumbnail": "CastelGame",
+            "stack": ["Laravel", "MySql", "ReactJS", "CI/CD", "Phaser", "Rust Language"],
+            "description": "a Crypto/Telegram based Massive Multiplayer Online Strategy (MMORTS) Game"
+        },
+        {
+            "title": "Guess Emoji Telegram Game",
+            "url": "https://github.com/geeksesi/guess_emoji_telegram_bot",
+            "thumbnail": "GuessEmoji",
+            "stack": ["PHP", "MySql", "CI/CD"],
+            "description": "A Youtube series ( in persian ) to teach PHP with project based approach."
+        },
+        {
+            "title": "My Resume",
+            "url": "https://github.com/geeksesi/resume",
+            "thumbnail": "Resume",
+            "stack": ["GraphQL", "GatsbyJs", "ReactJS", "TailwindCSS"],
+            "description": "This project includes my resume website with various templates."
+        }
+    ],
+    "languages": ["English (Advanced)"],
+    "availability": ["Open to Remote job."],
+    "educations": ["Associate's degree in Computer Engineering"],
+    "about": "WordPress engineer specializing in custom theme/plugin development and template-driven architectures. Focused on performance optimization, clean code, and delivering scalable solutions.",
+    "experiences": [
+        {
+            "title": "<strong>Engineering Manager</strong> at <strong>Tribe Agency</strong> (January 2025 - now) | Remote | London",
+            "role": "Engineering Manager",
+            "company": "Tribes Agency",
+            "time": "2022 - 2023",
+            "type": "Remote | London",
+            "url": "https://tribes.agency/",
+            "description": "a digital agency delivering WordPress solutions for diverse clients.",
+            "responsibilities": [
+                "Managed WordPress projects end-to-end, clarifying client requirements and aligning tools with project needs.",
+                "Led developers using Sage, Elementor, WooCommerce, ACF, and WP Bones across multiple projects.",
+                "Handled site reliability, performance tuning, caching strategies (WP-Rocket), and AWS infrastructure.",
+                "Provided technical support, QA, and ensured SEO integrity across staging and production environments."
+            ],
+            "technologies": ["WordPress", "Sage", "Elementor", "WooCommerce", "ACF", "WP Bones", "AWS", "WP-Rocket"]
+        },
+        {
+            "title": "<strong>WordPress Engineer</strong> at <strong>AwardMaven</strong> (July 2023 - January 2025) | Remote | Austin, TX",
+            "role": "WordPress Engineer",
+            "company": "AwardMaven",
+            "time": "July 2023 - now",
+            "type": "Remote | Austin, TX",
+            "url": "https://awardmaven.com/",
+            "description": "a WordPress-based CMS platform connecting sales teams with customers through documents and automated workflows.",
+            "responsibilities": [
+                "Built custom WordPress theme with ACF and Elementor, integrating WooCommerce for order management.",
+                "Developed Sage-based templates replacing page builder layouts, improving load times and maintainability.",
+                "Created automated checkout system with custom post types and REST API integration.",
+                "Partnered with product and sales to solve workflow issues via system design."
+            ],
+            "technologies": ["WordPress", "ACF", "Elementor", "WooCommerce", "Sage", "PHP", "MySQL"]
+        },
+        {
+            "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2021 - May 2023) | Remote | Austin, TX",
+            "role": "Back End Developer",
+            "company": "JackWestin",
+            "time": "May 2022 - May 2023",
+            "type": "Remote | Austin, TX",
+            "url": "https://jackwestin.com",
+            "description": "a high-traffic LMS platform for exam preparation with interactive courses and practice exams.",
+            "responsibilities": [
+                "Optimized database queries, refactored codebase, and ensured comprehensive testing.",
+                "Dockerized Laravel application and maintained Stripe payment integration."
+            ],
+            "technologies": ["PHP", "Laravel", "MySQL", "Redis", "Docker", "TDD"]
+        },
+        {
+            "title": "<strong>WordPress Freelance Developer</strong> (2018 - 2021)",
+            "role": "WordPress Freelance Developer",
+            "company": "Self employed",
+            "time": "2018 - 2022",
+            "type": "Remote & hybrid",
+            "url": "https://github.com/geeksesi",
+            "description": "built custom WordPress solutions for clients across various industries.",
+            "responsibilities": [
+                "Developed custom plugins and themes with ACF, Elementor, and Gutenberg blocks.",
+                "Migrated page builder-dependent sites to template-driven architectures.",
+                "Registered custom post types and taxonomies for content-heavy projects.",
+                "Optimized site performance, implemented caching, and managed hosting on AWS."
+            ],
+            "technologies": ["WordPress", "PHP", "ACF", "Elementor", "Gutenberg", "MySQL", "Docker", "AWS"]
+        }
+    ]
+}
