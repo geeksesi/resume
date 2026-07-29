@@ -4,7 +4,7 @@ import "../styles/index.css";
 import { graphql } from "gatsby";
 import { PDFViewer } from "@react-pdf/renderer";
 
-export default (data) => {
+const Ats = (data) => {
     const [isClient, setIsClient] = React.useState(false);
     React.useEffect(() => {
         setIsClient(true);
@@ -22,6 +22,8 @@ export default (data) => {
         </div>
     );
 };
+
+export default Ats;
 
 export const Head = () => <title>Resume Mohammad Javad Ghasemy</title>;
 

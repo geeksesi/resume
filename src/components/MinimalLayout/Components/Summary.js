@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Text, View, StyleSheet } from "@react-pdf/renderer";
+import { Text, View } from "@react-pdf/renderer";
 import style from "../style";
 
-export default ({ text }) => {
+const Summary = ({ text }) => {
     const styles = style;
 
     return (
@@ -12,3 +12,5 @@ export default ({ text }) => {
         </View>
     );
 };
+
+export default Summary;

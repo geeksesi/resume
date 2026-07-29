@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Text, View, StyleSheet } from "@react-pdf/renderer";
+import { Text, View } from "@react-pdf/renderer";
 import style from "../style";
 
-export default ({ items, title }) => {
+const Skills = ({ items, title }) => {
     const styles = style;
 
     return (
@@ -11,12 +11,14 @@ export default ({ items, title }) => {
             <Text style={styles.text}>
 
                 {items.map((item, i) => (
-                    <>
-                        <Text style={styles.text} key={item}>{item} </Text>
+                    <React.Fragment key={item}>
+                        <Text style={styles.text}>{item} </Text>
                         {i < items.length - 1 && <Text style={styles.text}>{" | "}</Text>}
-                    </>
+                    </React.Fragment>
                 ))}
             </Text>
         </View>
     );
 };
+
+export default Skills;

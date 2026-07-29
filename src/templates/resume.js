@@ -13,7 +13,7 @@ import MinimalLayout from "../components/MinimalLayout/index";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 import Resume from "../assets/images/projects/resume.jpg";
 
-export default (data) => {
+const ResumeTemplate = (data) => {
     const socials = {
         github: github,
         linkedin: linkedIn,
@@ -33,9 +33,7 @@ export default (data) => {
                         document={<MinimalLayout resume={resume} />}
                         fileName={fileName}
                     >
-                        {({ blob, url, loading, error }) =>
-                            loading ? "Loading document..." : "Download PDF!"
-                        }
+                        {({ loading }) => (loading ? "Loading document..." : "Download PDF!")}
                     </PDFDownloadLink>
                 </div>
             )}
@@ -57,7 +55,7 @@ export default (data) => {
                 <main className="flex max-w-screen-xl mx-auto flex-wrap">
                     <div className="sidebar">
                         <div className="flex justify-center p-5">
-                            <img src={avatar} className="aspect-auto" />
+                            <img src={avatar} alt={`Portrait of ${resume.name}`} className="aspect-auto" />
                         </div>
                         <div className="px-5">
                             <div className="mx-auto border-l-2 border-black border-opacity-70 my-1">
@@ -71,8 +69,8 @@ export default (data) => {
 
                                     <li className="flex flex-row justify-around py-3 px-5 max-w-xs">
                                         {resume.social.map((item, index) => (
-                                            <a href={item.link} key={index}>
-                                                <img src={socials[item.name]} width={25} />
+                                            <a href={item.link} key={index} aria-label={item.title}>
+                                                <img src={socials[item.name]} alt="" width={25} />
                                             </a>
                                         ))}
                                     </li>
@@ -159,6 +157,8 @@ export default (data) => {
         </>
     );
 };
+
+export default ResumeTemplate;
 
 export const Head = () => <title>Resume Mohammad Javad Ghasemy</title>;
 

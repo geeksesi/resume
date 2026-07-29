@@ -3,7 +3,7 @@ import { Link, Text, View } from "@react-pdf/renderer";
 import style from "../style";
 import { Html } from "react-pdf-html";
 
-export default ({ experience }) => {
+const Experience = ({ experience }) => {
     const styles = style;
 
     return (
@@ -33,3 +33,5 @@ export default ({ experience }) => {
         </View>
     );
 };
+
+export default Experience;

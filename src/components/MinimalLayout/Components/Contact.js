@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link, Text, View } from "@react-pdf/renderer";
 import style from "../style";
 
-export default ({ items }) => {
+const Contact = ({ items }) => {
     const styles = style;
 
     return (
@@ -11,21 +11,23 @@ export default ({ items }) => {
                 {items.map((item, i) => {
 
                     if (typeof item === "string") {
-                        return <>
-                            <Text key={i} style={styles.socialTitleText}>{item}</Text>
+                        return <React.Fragment key={i}>
+                            <Text style={styles.socialTitleText}>{item}</Text>
                             {i < items.length - 1 && <Text style={styles.socialTitleText}>{" | "}</Text>}
-                        </>;
+                        </React.Fragment>;
                     }
                     if (item.name === "email") {
-                        return <Link style={[styles.socialTitleText, styles.link]} src={`mailto:${item.link}`}>{item.title}</Link>;
+                        return <Link key={i} style={[styles.socialTitleText, styles.link]} src={`mailto:${item.link}`}>{item.title}</Link>;
                     }
-                    return <>
+                    return <React.Fragment key={i}>
                         <Link style={[styles.socialTitleText, styles.link]} src={item.link}>{item.name}</Link>
                         {i < items.length - 1 && <Text style={styles.socialTitleText}>{" | "}</Text>}
 
-                    </>
+                    </React.Fragment>
                 })}
             </Text>
         </View>
     );
 };
+
+export default Contact;

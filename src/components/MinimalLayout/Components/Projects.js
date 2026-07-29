@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Text, View, StyleSheet, Link } from "@react-pdf/renderer";
+import { Text, View, Link } from "@react-pdf/renderer";
 import style from "../style";
 
-export default ({ items }) => {
+const Projects = ({ items }) => {
     const styles = style;
 
     if (!items || items.length === 0) {
@@ -35,3 +35,5 @@ export default ({ items }) => {
         </View>
     );
 };
+
+export default Projects;
