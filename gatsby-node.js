@@ -11,21 +11,21 @@ exports.createPages = async ({ graphql, actions }) => {
     `);
     data.allFile.nodes.forEach((node) => {
         actions.createPage({
-            path: node.name,
+            path: `/${node.name}`,
             component: require.resolve("./src/templates/resume.js"),
             context: {
                 slug: node.name,
             },
         });
         actions.createPage({
-            path: `${node.name}/ats`,
+            path: `/${node.name}/ats`,
             component: require.resolve("./src/templates/ats.js"),
             context: {
                 slug: `${node.name}`,
             },
         });
         actions.createPage({
-            path: `${node.name}/minimal`,
+            path: `/${node.name}/minimal`,
             component: require.resolve("./src/templates/minimal.js"),
             context: {
                 slug: `${node.name}`,
