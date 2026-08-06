@@ -17,7 +17,9 @@
         "serve": "gatsby serve",
         "clean": "gatsby clean",
         "deploy": "gatsby build && gh-pages -d public",
-        "upgrade-interactive": "npm-check --update"
+        "upgrade-interactive": "npm-check --update",
+        "tailor": "node scripts/tailor-resume.js",
+        "test:tailor": "node tests/tailor-resume.test.js"
     },
     "dependencies": {
         "@mdx-js/react": "^2.3",

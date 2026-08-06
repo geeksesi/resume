@@ -1,0 +1,33 @@
+const fs = require("fs");
+const os = require("os");
+const path = require("path");
+const { execFileSync } = require("child_process");
+const root = path.resolve(__dirname, "..");
+const script = path.join(root, "scripts/tailor-resume.js");
+const fixture = "tests/fixtures/backend-job.md";
+const run = (input, env = {}) => execFileSync(process.execPath, [script, input], { cwd: root, encoding: "utf8", env: { ...process.env, ...env } });
+const fail = (input, env = {}) => { try { run(input, env); } catch (error) { return String(error.stderr || error.message); } throw new Error(`Expected failure for ${input}`); };
+const outputs = () => fs.readdirSync(path.join(root, "tailored"), { withFileTypes: true }).filter((x) => x.isDirectory()).map((x) => path.join(root, "tailored", x.name));
+fs.mkdirSync(path.join(root, "tailored"), { recursive: true });
+for (const output of outputs()) fs.rmSync(output, { recursive: true, force: true });
+const initial = JSON.parse(run(fixture));
+const out = path.join(root, initial.output);
+const report = JSON.parse(fs.readFileSync(path.join(out, "validation-report.json"), "utf8"));
+const resume = JSON.parse(fs.readFileSync(path.join(out, "resume.json"), "utf8"));
+const master = JSON.parse(fs.readFileSync(path.join(root, "data/master-profile.json"), "utf8")).resume;
+if (!report.oneA4Page || report.pdf.pages !== 1 || !report.pdf.a4) throw new Error("Expected exactly one verified A4 PDF page.");
+execFileSync("qpdf", ["--check", path.join(out, "resume.pdf")]);
+if (!resume.hardSkills.every((skill) => master.hardSkills.includes(skill))) throw new Error("Ungrounded skill.");
+for (const experience of resume.experiences) { const source = master.experiences.find((x) => x.company === experience.company); if (!source || Object.keys(experience).some((key) => ["responsibilities", "technologies"].includes(key) ? !experience[key].every((value) => source[key].includes(value)) : JSON.stringify(experience[key]) !== JSON.stringify(source[key]))) throw new Error("Ungrounded experience claim."); }
+for (const project of resume.projects) if (!master.projects.some((x) => JSON.stringify(x) === JSON.stringify(project))) throw new Error("Ungrounded project claim.");
+if (!fs.readFileSync(path.join(out, "cover-letter.md"), "utf8").includes(master.name)) throw new Error("Cover letter is missing canonical name.");
+if (!fail(fixture).includes("Refusing to overwrite")) throw new Error("Expected collision protection.");
+const temp = fs.mkdtempSync(path.join(os.tmpdir(), "tailor-test-"));
+fs.writeFileSync(path.join(root, "tests/fixtures/malformed-job.md"), "x");
+if (!fail("tests/fixtures").includes("regular file")) throw new Error("Directory input accepted.");
+if (!fail("tests/fixtures/nope.md").includes("regular file")) throw new Error("Missing input accepted.");
+const link = path.join(root, "tests/fixtures/escape-link.md"); try { fs.symlinkSync(path.join(temp, "outside.md"), link); fs.writeFileSync(path.join(temp, "outside.md"), "Laravel"); if (!fail("tests/fixtures/escape-link.md").includes("regular file")) throw new Error("Symlink escape accepted."); } finally { fs.rmSync(link, { force: true }); fs.rmSync(path.join(root, "tests/fixtures/malformed-job.md"), { force: true }); fs.rmSync(temp, { recursive: true, force: true }); }
+fs.rmSync(out, { recursive: true, force: true });
+const overflow = fail(fixture, { TAILOR_FORCE_OVERFLOW: "1" }); if (!overflow.includes("PDF validation failed")) throw new Error("Forced impossible fit did not fail PDF verification.");
+for (const output of outputs()) fs.rmSync(output, { recursive: true, force: true });
+console.log("tailor-resume tests passed");

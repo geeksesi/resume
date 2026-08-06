@@ -1,0 +1,1 @@
+Senior backend engineer needed to build reliable Laravel and PostgreSQL services. Experience with Docker, Redis, GraphQL, automated testing, and Vue.js is valued. Remote role supporting product and sales workflows.

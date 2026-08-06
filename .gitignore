@@ -1,3 +1,5 @@
 node_modules/
 .cache/
 public/
+# Tailored artifacts are intentionally retained and may be reviewed/committed.
+# Test outputs use deterministic names and are cleaned by tests.
