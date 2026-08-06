@@ -20,7 +20,6 @@ const Projects = ({ items }) => {
                 {items.map((item) => (
                     <View key={item.title} style={{ 
                         width: "32%",
-                        marginBottom: 10,
                         padding: 0,
                         // minHeight: 150
                     }}>

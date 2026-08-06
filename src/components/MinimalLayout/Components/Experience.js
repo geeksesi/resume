@@ -17,7 +17,8 @@ const Experience = ({ experience }) => {
                 )}
                 <Text style={styles.subText}>
                     {" "}
-                    - {experience.time} | {experience.type}
+                    - {experience.time}
+                    {experience.location ? ` | ${experience.location} - ${experience.type}` : ` | ${experience.type}`}
                 </Text>
             </Text>
 

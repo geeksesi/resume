@@ -21,7 +21,7 @@ Font.register({
 
 export default StyleSheet.create({
     page: {
-        flexDirection: "row",
+        flexDirection: "column",
         backgroundColor: "#FFFFFF",
         padding: 12,
         paddingHorizontal: 30,
