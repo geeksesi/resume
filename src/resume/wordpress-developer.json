@@ -95,27 +95,27 @@
     "about": "WordPress engineer specializing in custom theme/plugin development and template-driven architectures. Focused on performance optimization, clean code, and delivering scalable solutions.",
     "experiences": [
         {
-            "title": "<strong>Engineering Manager</strong> at <strong>Tribe Agency</strong> (January 2025 - now) | Remote | London",
-            "role": "Engineering Manager",
-            "company": "Tribes Agency",
-            "time": "2022 - 2023",
-            "type": "Remote | London",
-            "url": "https://tribes.agency/",
-            "description": "a digital agency delivering WordPress solutions for diverse clients.",
+            "title": "<strong>Technical Team Lead</strong> at <strong>Tribes Digital</strong> (July 2025 - June 2026) | Manchester, UK - Remote",
+            "role": "Technical Team Lead",
+            "company": "Tribes Digital",
+            "time": "July 2025 - June 2026",
+            "location": "Manchester, UK",
+            "type": "Remote",
+            "url": "https://tribes.tech/",
+            "description": "",
             "responsibilities": [
-                "Managed WordPress projects end-to-end, clarifying client requirements and aligning tools with project needs.",
-                "Led developers using Sage, Elementor, WooCommerce, ACF, and WP Bones across multiple projects.",
-                "Handled site reliability, performance tuning, caching strategies (WP-Rocket), and AWS infrastructure.",
-                "Provided technical support, QA, and ensured SEO integrity across staging and production environments."
+                "Led custom WordPress/Sage theme and plugin development.",
+                "Automated Microsoft 365 processes and migrated client data; also delivered Laravel/Vue and NestJS/Phaser client work."
             ],
-            "technologies": ["WordPress", "Sage", "Elementor", "WooCommerce", "ACF", "WP Bones", "AWS", "WP-Rocket"]
+            "technologies": ["WordPress", "Sage", "PHP", "Microsoft 365", "Data Migration"]
         },
         {
-            "title": "<strong>WordPress Engineer</strong> at <strong>AwardMaven</strong> (July 2023 - January 2025) | Remote | Austin, TX",
+            "title": "<strong>WordPress Engineer</strong> at <strong>AwardMaven</strong> (July 2023 - July 2025) | Phoenix, AZ, US - Remote",
             "role": "WordPress Engineer",
             "company": "AwardMaven",
-            "time": "July 2023 - now",
-            "type": "Remote | Austin, TX",
+            "time": "July 2023 - July 2025",
+            "location": "Phoenix, AZ, US",
+            "type": "Remote",
             "url": "https://awardmaven.com/",
             "description": "a WordPress-based CMS platform connecting sales teams with customers through documents and automated workflows.",
             "responsibilities": [
@@ -127,11 +127,12 @@
             "technologies": ["WordPress", "ACF", "Elementor", "WooCommerce", "Sage", "PHP", "MySQL"]
         },
         {
-            "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2021 - May 2023) | Remote | Austin, TX",
+            "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2021 - May 2023) | Phoenix, AZ, US - Remote",
             "role": "Back End Developer",
             "company": "JackWestin",
             "time": "May 2022 - May 2023",
-            "type": "Remote | Austin, TX",
+            "location": "Phoenix, AZ, US",
+            "type": "Remote",
             "url": "https://jackwestin.com",
             "description": "a high-traffic LMS platform for exam preparation with interactive courses and practice exams.",
             "responsibilities": [

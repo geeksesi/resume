@@ -94,10 +94,26 @@
     "about": "Passionate software developer with a focus on backend technologies. Dedicated to building impactful software solutions. Committed to continuous learning and sharing knowledge.",
     "experiences": [
         {
-            "title": "<strong>Full Stack Developer</strong> at <strong>AwardMaven</strong> (July 2023 - now) | Remote",
+            "title": "<strong>Full Stack Developer</strong> at <strong>Tribes Digital</strong> (July 2025 - June 2026) | Manchester, UK - Remote",
+            "role": "Full Stack Developer",
+            "company": "Tribes Digital",
+            "time": "July 2025 - June 2026",
+            "location": "Manchester, UK",
+            "type": "Remote",
+            "url": "https://tribes.tech/",
+            "description": "",
+            "responsibilities": [
+                "Led WordPress/Sage theme and plugin development, Microsoft 365 automation, and data migrations.",
+                "Built Vue/Laravel customer workflows and a Phaser.js/NestJS gamification campaign for Nestlé."
+            ],
+            "technologies": ["Vue.js", "Laravel", "NestJS", "Phaser.js", "WordPress", "Sage", "Microsoft 365"]
+        },
+        {
+            "title": "<strong>Full Stack Developer</strong> at <strong>AwardMaven</strong> (July 2023 - July 2025) | Phoenix, AZ, US - Remote",
             "role": "Full Stack Developer",
             "company": "AwardMaven",
-            "time": "July 2023 - now",
+            "time": "July 2023 - July 2025",
+            "location": "Phoenix, AZ, US",
             "type": "Remote",
             "url": "https://awardmaven.com/",
             "description": "a CMS platform that connects sales teams with customers and vendors through legal documents and actionable workflows.",
@@ -110,10 +126,11 @@
             "technologies": ["Laravel", "MySQL", "Redis", "TDD", "Docker", "Vue.js", "Livewire/Alpine"]
         },
         {
-            "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2022 - May 2023) | Remote",
+            "title": "<strong>Back End Developer</strong> at <strong>JackWestin.com</strong> (May 2022 - May 2023) | Phoenix, AZ, US - Remote",
             "role": "Back End Developer",
             "company": "JackWestin",
             "time": "May 2022 - May 2023",
+            "location": "Phoenix, AZ, US",
             "type": "Remote",
             "url": "https://jackwestin.com",
             "description": "JackWestin is a high-traffic LMS platform where students prepare for exams using interactive courses, practice exams, and flashcards.",
@@ -133,9 +150,7 @@
             "url": "https://signalads.com/",
             "description": "",
             "responsibilities": [
-                "Refactored and optimized SMS broker system, analyzing structure and database design. Utilized RabbitMQ and Laravel Queue for a high-performance system.",
-                "Maintained and optimized GraphQL codebase, improving database queries, resolving N+1 issues, and ensuring comprehensive testing.",
-                "Contributed to the company's <b>Agile</b> development process and facilitated communication between the development team and non-technical stakeholders. Helped ensure that the team was aligned with company goals and objectives."
+                "Optimized SMS broker and GraphQL systems with RabbitMQ, Laravel Queue, and improved database queries."
             ],
             "technologies": ["PHP", "Laravel", "PostgreSQL", "Redis", "Docker", "GraphQL", "TDD"]
         },
