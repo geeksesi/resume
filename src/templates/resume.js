@@ -110,10 +110,10 @@ const ResumeTemplate = (data) => {
                                     <article className="py-4" key={index}>
                                         <ul className="dot-margin list-disc list-inside text-sm align-top font-sans">
                                             <li className="py-1 px-5">
-                                                <a
-                                                    href={item.url}
-                                                    dangerouslySetInnerHTML={{ __html: item.title }}
-                                                ></a>
+                                                <a href={item.url}>
+                                                    <strong>{item.role}</strong> at <strong>{item.company}</strong> ({item.time})
+                                                    {item.location ? ` | ${item.location} - ${item.type}` : ` | ${item.type}`}
+                                                </a>
                                                 <p className="text-justify">{item.description}</p>
                                                 <ul>
                                                     {item.responsibilities.map((item, index) => (
@@ -195,6 +195,7 @@ export const query = graphql`
                 role
                 company
                 time
+                location
                 type
                 url
                 description

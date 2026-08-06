@@ -60,6 +60,7 @@ export const query = graphql`
                 role
                 company
                 time
+                location
                 type
                 url
                 description
